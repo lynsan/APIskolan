@@ -1,0 +1,36 @@
+.side-bar{
+    background-color:rgb(69, 15, 122);
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    .menu {
+        width: 100%; 
+        list-style-type: none;
+        padding: 3px;
+    .item {
+        position: relative;   
+        cursor: pointer;
+        margin: 5px;     
+        a {
+            border-radius: 3px;
+            background-color: #ffff;
+            color: rgb(91, 22, 148);
+            font-size: 16px;
+            padding: 10px;
+            text-decoration: none;
+            display: block; 
+            &:hover {
+                background-color: rgb(148, 195, 201);
+            }
+            
+            .dropdown {
+                right: 0;
+                margin: 10px;
+                position: absolute;
+            } 
+        }
+    }   
+}
+    
+}

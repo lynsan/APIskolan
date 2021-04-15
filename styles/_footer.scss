@@ -1,0 +1,18 @@
+@mixin flexCenter($direction) {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+footer {
+    @include flexCenter(column);
+    
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(251, 250, 253);
+}
