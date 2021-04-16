@@ -1,13 +1,34 @@
-header {
-  padding: 15px;
-  padding-left: 30px;
-  font-size: 30px;
-  font-weight: bold;
+@charset "UTF-8";
+/* Används bara i javascript */
+.d-none {
+  display: none;
 }
 
+/* Styling */
 header a {
   text-decoration: none;
   color: #471575;
+}
+
+header .navlist {
+  background: #a7258a;
+  width: 70%;
+  max-width: 250px;
+  list-style-type: none;
+}
+
+header .navlist .navlist-item a {
+  color: #000;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hamburger-icon {
+    display: none;
+  }
+  .navlist {
+    display: block;
+  }
 }
 
 footer {
@@ -33,55 +54,8 @@ footer {
   background-color: #fbfafd;
 }
 
-.side-bar {
-  background-color: #450f7a;
-  width: 250px;
-  height: 100%;
-  position: fixed;
-  overflow-y: auto;
-  /* Scrollable contents if viewport is shorter than content. */
-}
-
-.side-bar .menu {
-  width: 100%;
-  list-style-type: none;
-  padding: 3px;
-}
-
-.side-bar .menu .item {
-  position: relative;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.side-bar .menu .item a {
-  border-radius: 3px;
-  background-color: #ffff;
-  color: #5b1694;
-  font-size: 16px;
-  padding: 10px;
-  text-decoration: none;
-  display: block;
-}
-
-.side-bar .menu .item a:hover {
-  background-color: #94c3c9;
-}
-
-.side-bar .menu .item a .dropdown {
-  right: 0;
-  margin: 10px;
-  position: absolute;
-}
-
 body {
   background-color: #ffff;
-}
-
-.main {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
 }
 
 .main h1 {

@@ -1,11 +1,38 @@
+@import "./variables";
+
+/* Används bara i javascript */
+.d-none{
+    display: none;
+}
+
+/* Styling */
 header {
-    padding: 15px;
-    padding-left: 30px;
-    font-size: 30px;
-    font-weight: bold;
-   
     a{
         text-decoration: none; 
         color: rgb(71, 21, 117);
     }
+    .navlist {
+        background: $tempNavColor;
+        width: 70%;
+        max-width: 250px; 
+        list-style-type: none;
+        .navlist-item{
+            a{
+                color: #000;
+                font-size: 14px;
+            
+            }
+        }
+    }
 }
+
+@media screen and (min-width: $largeScreen) {
+    .hamburger-icon {
+        display: none;
+    }
+    .navlist {
+        display: block;
+    }
+}
+
+

@@ -1,13 +1,11 @@
 @import "./header";
 @import "./footer";
-@import "./sidebar";
 
 body {
     background-color: #ffff;
 }
 
 .main {
-    max-width: fit-content;
     h1 {
         padding-top: 30px;
         color: rgb(55, 161, 175);
@@ -16,9 +14,9 @@ body {
         padding-top: 30px;
     }
     button {
-        background-color:rgb(69, 15, 122);
+        background-color: $primaryBtn;
         &:hover {
-            background-color: rgb(55, 161, 175);
+            background-color: $primaryBtnHover;
         }
     }
 }
