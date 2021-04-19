@@ -3,21 +3,56 @@
 
 body {
     background-color: #ffff;
+    font-family: Quicksand;
 }
 
-.main {
-    h1 {
-        padding-top: 30px;
-        color: rgb(55, 161, 175);
-    }
-    p {
-        padding-top: 30px;
-    }
-    button {
-        background-color: $primaryBtn;
-        &:hover {
-            background-color: $primaryBtnHover;
+.wrapper {
+    display: flex;
+}
+
+.navlist {
+    background: $primaryColor;
+    width: 20vw;
+    min-width: 250px; 
+    list-style-type: none;
+    height: 100vh;
+    position: absolute;
+    padding-top: 1vw;
+    .navlist-item {     
+        a {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            background: #ffff;
+            color: #000;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 3%;
+            padding: 2%;
+            .drop-down {
+                color: $primaryColor;
+                font-size: 30px;
+                top: 0;
+                right: 0;
+                position: absolute;
+                margin-right: 3%;
+            }
         }
+        .submenu {
+            margin-left: 2vw;
+        }
+        
+    }
+}
+
+@media screen and (min-width: $largeScreen) {
+    .hamburger-icon {
+        display: none;
+    }
+    .navlist {
+        display: block;
+        position: static;
     }
 }
 

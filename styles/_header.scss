@@ -1,38 +1,23 @@
 @import "./variables";
 
 /* Används bara i javascript */
-.d-none{
+.d-none {
     display: none;
 }
 
 /* Styling */
 header {
+    display: flex;
     a{
         text-decoration: none; 
-        color: rgb(71, 21, 117);
     }
-    .navlist {
-        background: $tempNavColor;
-        width: 70%;
-        max-width: 250px; 
-        list-style-type: none;
-        .navlist-item{
-            a{
-                color: #000;
-                font-size: 14px;
-            
-            }
-        }
+    .logo {
+        font-size: 40px;
+        margin: auto;
+    
     }
 }
 
-@media screen and (min-width: $largeScreen) {
-    .hamburger-icon {
-        display: none;
-    }
-    .navlist {
-        display: block;
-    }
-}
+
 
 
