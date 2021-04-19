@@ -1,10 +1,18 @@
 function toggleMenu(){
-    let nav = document.querySelector('.navlist');
-    console.log(nav);
-    if(nav.classList.contains('d-none')) {
-        nav.classList.remove('d-none');
+    let menu = document.querySelector('.navlist');
+    toggleDisplayNone(menu);
+}
+
+function toggleSubmenu(ev){
+    let submenu = ev.lastElementChild;
+    toggleDisplayNone(submenu);
+}
+
+function toggleDisplayNone(element){
+    if(element.classList.contains('d-none')) {
+        element.classList.remove('d-none');
     }
     else{
-        nav.classList.add('d-none');
+        element.classList.add('d-none');
     }
 }

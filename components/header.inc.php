@@ -12,18 +12,24 @@
 </head>
 
 <header>
-<nav>
-<button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+    <nav>
+    <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
         <ul class="navlist d-none">
-            <li class="navlist-item"><a href="#">Vad är ett API?</a></li>
+            <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Vad är ett API?<i class="fas fa-angle-down"></i></a>
+                <div class="submenu d-none">
+                    <a href="">Öppna data</a>
+                    <a href="">Olika typer av API</a>
+                    <a href="">Terminologi</a>
+                </div>
+            </li>        
             <li class="navlist-item"><a href="#">Vad är ett API?</a></li>
             <li class="navlist-item"><a href="#">Vad är ett API?</a></li>
             <li class="navlist-item"><a href="#">Vad är ett API?</a></li>
         </ul>
-    
-</nav>
 
-<a href="index.php">APIskolan</a>
+    </nav>
+
+    <a href="index.php">APIskolan</a>
 
 </header>
 
