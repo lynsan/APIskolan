@@ -12,9 +12,10 @@
     <title>APIskolan</title>
 </head>
 
-<header>
-    <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
-    <a class="logo" href="index.php">APIskolan</a>
-</header>
-
 <body>
+    <header>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <a class="logo" href="index.php">APIskolan</a>
+    </header>
+
+
