@@ -6,73 +6,14 @@ body {
     font-family: Quicksand;
 }
 
-.wrapper {
-    display: flex;
-}
-
-.wave-side {
-    width: 20%;
-    height: 100vh;
-} 
-
-.svg-wave {
-    width: calc(100%-20vw);
-    height: 100%;
-    position: absolute;
-}
-
-.navlist {
-    background: #6513DE;
-    width: 20vw;
-    min-width: 250px; 
-    list-style-type: none;
-    height: 100vh;
-    position: relative;
-    padding-top: 1vw;
-    .navlist-item {     
-        a {
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            background: #ffff;
-            color: #000;
-            font-size: 18px;
-            border-radius: 5px;
-            text-decoration: none;
-            margin: 3%;
-            padding: 2%;
-            .drop-down {
-                color: $primaryColor;
-                font-size: 30px;
-                top: 0;
-                right: 0;
-                position: absolute;
-                margin-right: 3%;
-            }
-        }
-        .submenu {
-            margin-left: 2vw;
-        }
-        
-    }
+.main-content{
+    padding-top: 50px;
 }
 
 @media screen and (min-width: $largeScreen) {
-    .hamburger-icon {
-        display: none;
+    .main-content{
+        width: 80vw;
+        float: right;
     }
-    .navlist {
-        display: block;
-        position: static;
-    }
+
 }
-
-
-
-
-
-
-
-
-
-

@@ -8,16 +8,93 @@
 /* Styling */
 header {
     display: flex;
-    a{
-        text-decoration: none; 
-    }
+    position: fixed;
+    width: 100%;
+    background: white;
     .logo {
         font-size: 40px;
         margin: auto;
+        z-index: 1000;
+        color: $primaryColor;
+        text-decoration: none; 
+    }
     
+    
+}
+
+.hamburger-icon {
+    font-size: 40px;
+    border: transparent;
+    background: transparent;
+    color: $primaryColor;
+    cursor: pointer;
+    outline: none;
+    z-index: 100;
+    position: fixed;
+    margin-top: -10px;
+}
+
+.menu-container{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: rgb(184,180,255);
+    background: linear-gradient(229deg, rgba(184,180,255,1) 0%, rgba(152,199,255,1) 100%);
+    transition: all 0.3s;
+    width: 0;
+    .navlist{
+        padding-top: 50px;
+        .navlist-item {    
+            a {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                background: white;
+                color: $primaryColor;
+                font-size: 18px;
+                border-radius: 5px;
+                text-decoration: none;
+                margin: 3%;
+                padding: 2%;
+                border-style: solid;
+                border-width: 2px;
+                border-color: white;
+                &:hover{
+                    background: rgb(251, 250, 253);
+                    color: $primaryColor;
+                    border-color: $primaryColor;
+                    border-width: 2px;
+                    border-style: solid;
+                }
+                .drop-down {
+                    color: $primaryColor;
+                    font-size: 30px;
+                    top: 0;
+                    right: 0;
+                    position: absolute;
+                    margin-right: 3%;
+                }
+            }
+            .submenu {
+                margin-left: 2vw;
+            }
+        }
     }
 }
 
+@media screen and (min-width: $largeScreen) {
+    .hamburger-icon {
+        display: none;
+    }
+    .menu-container {
+        width: 20vw;
+    }
+
+}
 
 
 

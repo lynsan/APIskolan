@@ -9,15 +9,100 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-header a {
-  text-decoration: none;
+  position: fixed;
+  width: 100%;
+  background: white;
 }
 
 header .logo {
   font-size: 40px;
   margin: auto;
+  z-index: 1000;
+  color: #140388;
+  text-decoration: none;
+}
+
+.hamburger-icon {
+  font-size: 40px;
+  border: transparent;
+  background: transparent;
+  color: #140388;
+  cursor: pointer;
+  outline: none;
+  z-index: 100;
+  position: fixed;
+  margin-top: -10px;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  min-height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: #b8b4ff;
+  background: linear-gradient(229deg, #b8b4ff 0%, #98c7ff 100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+
+.menu-container .navlist {
+  padding-top: 50px;
+}
+
+.menu-container .navlist .navlist-item a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: white;
+  color: #140388;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 3%;
+  padding: 2%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.menu-container .navlist .navlist-item a:hover {
+  background: #fbfafd;
+  color: #140388;
+  border-color: #140388;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.menu-container .navlist .navlist-item a .drop-down {
+  color: #140388;
+  font-size: 30px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin-right: 3%;
+}
+
+.menu-container .navlist .navlist-item .submenu {
+  margin-left: 2vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .hamburger-icon {
+    display: none;
+  }
+  .menu-container {
+    width: 20vw;
+  }
 }
 
 footer {
@@ -35,9 +120,6 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: fixed;
-  padding: 10px;
-  bottom: 0;
   width: 100%;
   height: 80px;
   background-color: #fbfafd;
@@ -48,71 +130,14 @@ body {
   font-family: Quicksand;
 }
 
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.wave-side {
-  width: 20%;
-  height: 100vh;
-}
-
-.svg-wave {
-  width: calc(100%-20vw);
-  height: 100%;
-  position: absolute;
-}
-
-.navlist {
-  background: #6513DE;
-  width: 20vw;
-  min-width: 250px;
-  list-style-type: none;
-  height: 100vh;
-  position: relative;
-  padding-top: 1vw;
-}
-
-.navlist .navlist-item a {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  background: #ffff;
-  color: #000;
-  font-size: 18px;
-  border-radius: 5px;
-  text-decoration: none;
-  margin: 3%;
-  padding: 2%;
-}
-
-.navlist .navlist-item a .drop-down {
-  color: #6513DE;
-  font-size: 30px;
-  top: 0;
-  right: 0;
-  position: absolute;
-  margin-right: 3%;
-}
-
-.navlist .navlist-item .submenu {
-  margin-left: 2vw;
+.main-content {
+  padding-top: 50px;
 }
 
 @media screen and (min-width: 1200px) {
-  .hamburger-icon {
-    display: none;
-  }
-  .navlist {
-    display: block;
-    position: static;
+  .main-content {
+    width: 80vw;
+    float: right;
   }
 }
 /*# sourceMappingURL=style.css.map */
