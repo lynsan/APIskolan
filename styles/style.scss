@@ -8,7 +8,40 @@ body {
 
 .main-content{
     padding-top: 50px;
+    section{
+        margin:6vw;
+        text-align: center;
+        h1{
+            color: $primaryColor;
+            font-size:xx-large;
+            line-height: 2;
+        }
+        p{
+            max-width: 60em;
+            text-align: center;
+            margin: auto;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        button{
+            background-color: $primaryColor;
+            color: white;
+            min-height: 44px;
+            border: none;
+            font-family: Quicksand;
+            padding: 10px;
+            font-size: 1.1em;
+            margin-top: 2em;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: #2a199c;
+            }
+        }
+    }
 }
+
+
 
 @media screen and (min-width: $largeScreen) {
     .main-content{

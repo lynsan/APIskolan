@@ -12,3 +12,10 @@ footer {
     height: 80px;
     background-color: rgb(251, 250, 253);
 }
+
+@media screen and (min-width: $largeScreen) {
+
+    footer p{
+        padding-left: 20vw;
+    }
+}

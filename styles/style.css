@@ -16,7 +16,7 @@ header {
 
 header .logo {
   font-size: 40px;
-  margin: auto;
+  margin: 5px auto;
   z-index: 1000;
   color: #140388;
   text-decoration: none;
@@ -103,6 +103,9 @@ header .logo {
   .menu-container {
     width: 20vw;
   }
+  header .logo {
+    padding-left: 20vw;
+  }
 }
 
 footer {
@@ -125,6 +128,12 @@ footer {
   background-color: #fbfafd;
 }
 
+@media screen and (min-width: 1200px) {
+  footer p {
+    padding-left: 20vw;
+  }
+}
+
 body {
   background-color: #ffff;
   font-family: Quicksand;
@@ -132,6 +141,42 @@ body {
 
 .main-content {
   padding-top: 50px;
+}
+
+.main-content section {
+  margin: 6vw;
+  text-align: center;
+}
+
+.main-content section h1 {
+  color: #140388;
+  font-size: xx-large;
+  line-height: 2;
+}
+
+.main-content section p {
+  max-width: 60em;
+  text-align: center;
+  margin: auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.main-content section button {
+  background-color: #140388;
+  color: white;
+  min-height: 44px;
+  border: none;
+  font-family: Quicksand;
+  padding: 10px;
+  font-size: 1.1em;
+  margin-top: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content section button:hover {
+  background-color: #2a199c;
 }
 
 @media screen and (min-width: 1200px) {
