@@ -49,7 +49,11 @@ header {
     width: 0;
     .navlist{
         padding-top: 50px;
-        .navlist-item {    
+        .navlist-item { 
+            .active{
+                background: $primaryColor;
+                color: white;
+            }   
             a {
                 position: relative;
                 display: flex;

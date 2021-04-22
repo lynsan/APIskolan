@@ -54,6 +54,11 @@ header .logo {
   padding-top: 50px;
 }
 
+.menu-container .navlist .navlist-item .active {
+  background: #140388;
+  color: white;
+}
+
 .menu-container .navlist .navlist-item a {
   position: relative;
   display: -webkit-box;
@@ -141,10 +146,13 @@ body {
 
 .main-content {
   padding-top: 50px;
+  min-height: calc(100vh - 130px);
 }
 
 .main-content section {
-  margin: 6vw;
+  margin: 0 6vw;
+  padding-bottom: 4vw;
+  padding-top: 2vw;
   text-align: center;
 }
 

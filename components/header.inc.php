@@ -26,7 +26,7 @@
                             <li><a href="">Öppna data</a></li>
                         </ul>
                     </li>        
-                    <li class="navlist-item"><a href="#">Hur man använder ett API?</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='api'){echo 'active';} ?>" href="api.php">Hur man använder ett API?</a></li>
                     <li class="navlist-item"><a href="#">Varför ska man använda ett API??</a></li>
                     <li class="navlist-item"><a href="#">Kodexempel</a></li>
                     <li class="navlist-item"><a href="#">Quiz</a></li>

@@ -8,8 +8,11 @@ body {
 
 .main-content{
     padding-top: 50px;
+    min-height: calc(100vh - 130px);
     section{
-        margin:6vw;
+        margin: 0 6vw;
+        padding-bottom: 4vw;
+        padding-top: 2vw;
         text-align: center;
         h1{
             color: $primaryColor;
@@ -18,7 +21,7 @@ body {
         }
         p{
             max-width: 60em;
-            text-align: center;
+            text-align: center; 
             margin: auto;
             font-size: 1.1em;
             line-height: 1.6;
