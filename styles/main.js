@@ -33,3 +33,13 @@ function changeMenuWidth(newWidth){
             menu.style.width = newWidth;
         }
 }
+
+
+function hide_menu(){
+    let large = window.matchMedia("(min-width: 1200px)");
+    let menu = document.querySelector('.menu-container');
+    if(!large.matches){
+
+        menu.style.width = "0";
+    }
+}
