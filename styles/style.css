@@ -14,7 +14,12 @@ header {
   background: white;
 }
 
-header .logo {
+header .logo-container {
+  width: 100vw;
+  text-align: center;
+}
+
+header .logo-container .logo {
   font-size: 40px;
   margin: 5px auto;
   z-index: 1000;
@@ -108,8 +113,8 @@ header .logo {
   .menu-container {
     width: 20vw;
   }
-  header .logo {
-    padding-left: 20vw;
+  header .logo-container {
+    margin-left: 20vw;
   }
 }
 

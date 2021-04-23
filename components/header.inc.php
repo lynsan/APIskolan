@@ -33,5 +33,7 @@
                 </ul>
             </div>
         </div>
-        <a class="logo" href="index.php">APIskolan</a>
+        <div class="logo-container" onclick="hide_menu()">
+            <a class="logo" href="index.php">APIskolan</a>
+        </div>
     </header>

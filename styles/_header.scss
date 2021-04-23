@@ -11,13 +11,16 @@ header {
     position: fixed;
     width: 100%;
     background: white;
-    .logo {
-        font-size: 40px;
-        margin: 5px auto;
-        z-index: 1000;
-        color: $primaryColor;
-        text-decoration: none; 
-
+    .logo-container{
+        width: 100vw;
+        text-align: center;
+        .logo {
+            font-size: 40px;
+            margin: 5px auto;
+            z-index: 1000;
+            color: $primaryColor;
+            text-decoration: none; 
+        }
     }
     
     
@@ -98,8 +101,8 @@ header {
     .menu-container {
         width: 20vw;
     }
-    header .logo{
-        padding-left: 20vw;
+    header .logo-container{
+        margin-left: 20vw;
     }
 }
 
