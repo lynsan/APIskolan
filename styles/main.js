@@ -43,3 +43,14 @@ function hide_menu(){
         menu.style.width = "0";
     }
 }
+
+
+window.onresize = function(){
+    let menu = document.querySelector('.menu-container');
+    if(window.innerWidth >= 1200){
+        menu.style.width = '20vw';
+    }
+    else{
+        menu.style.width = '0';
+    }
+}
