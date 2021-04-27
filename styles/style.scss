@@ -13,19 +13,39 @@ body {
         margin: 0 6vw;
         padding-bottom: 4vw;
         padding-top: 2vw;
-        text-align: center;
+        text-align: justify;
         h1{
             color: $primaryColor;
             font-size:xx-large;
             line-height: 2;
         }
+        h2{
+            color: $primaryColor;
+            font-size: x-large;
+            font-weight: 700;
+            line-height: 2;
+            margin-top: 50px;
+        }
+        h3{
+            color: $primaryColor;
+            font-size:large;
+            line-height: 2;
+            margin-top: 30px;
+        }
         p{
             max-width: 60em;
-            text-align: center; 
             margin: auto;
             font-size: 1.1em;
             line-height: 1.6;
         }
+        .callout{
+            position: relative;
+            background-color: #e1e7ff;
+            padding: 1em;
+            margin: 1em auto;
+            max-width: 55em;
+        }
+        
         button{
             background-color: $primaryColor;
             color: white;
