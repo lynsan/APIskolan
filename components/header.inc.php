@@ -18,7 +18,8 @@
             <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
             <div class="menu-container">
                 <ul class="navlist">
-                    <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Vad är ett API?<i class="fas fa-angle-down drop-down"></i></a>
+                    <li class="navlist-item"><a class="<?php if($page=='vad'){echo 'active';} ?>" href="vad.php">Vad är ett API?</a></li>
+                    <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Hur man använder ett API<i class="fas fa-angle-down drop-down"></i></a>
                         <ul class="submenu d-none">
                             <li><a href="">Öppna data</a></li>
                             <li><a href="">Öppna data</a></li>
@@ -26,7 +27,6 @@
                             <li><a href="">Öppna data</a></li>
                         </ul>
                     </li>        
-                    <li class="navlist-item"><a class="<?php if($page=='api'){echo 'active';} ?>" href="api.php">Hur man använder ett API?</a></li>
                     <li class="navlist-item"><a href="#">Varför ska man använda ett API??</a></li>
                     <li class="navlist-item"><a href="#">Kodexempel</a></li>
                     <li class="navlist-item"><a href="#">Quiz</a></li>

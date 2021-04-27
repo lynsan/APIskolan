@@ -192,6 +192,12 @@ body {
   background-color: #2a199c;
 }
 
+.exampleImg {
+  max-width: 60em;
+  width: 100%;
+  margin: 2vw;
+}
+
 @media screen and (min-width: 1200px) {
   .main-content {
     width: 80vw;
