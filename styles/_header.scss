@@ -18,7 +18,7 @@ header {
             font-size: 40px;
             margin: 5px auto;
             z-index: 1000;
-            color: $primaryColor;
+            color: $primaryBlue;
             text-decoration: none; 
         }
     }
@@ -28,7 +28,7 @@ header {
     font-size: 40px;
     border: transparent;
     background: transparent;
-    color: $primaryColor;
+    color: $primaryBlue;
     cursor: pointer;
     outline: none;
     z-index: 100;
@@ -44,6 +44,8 @@ header {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: hidden;
+    /* background-image: linear-gradient(to right top, #db4328, #ff7045, #f0a818,); */
+   /*  background: linear-gradient(229deg, $primaryOrange 20%, $primaryBlue 100%); */
     background: rgb(184,180,255);
     background: linear-gradient(229deg, rgba(184,180,255,1) 0%, rgba(152,199,255,1) 100%);
     transition: all 0.3s;
@@ -52,7 +54,8 @@ header {
         padding-top: 50px;
         .navlist-item { 
             .active{
-                background: $primaryColor;
+                background: $primaryBlue;
+                border-color: $primaryBlue;
                 color: white;
             }   
             a {
@@ -60,7 +63,7 @@ header {
                 display: flex;
                 flex-direction: row;
                 background: white;
-                color: $primaryColor;
+                color: $primaryBlue;
                 font-size: 18px;
                 border-radius: 5px;
                 text-decoration: none;
@@ -71,13 +74,13 @@ header {
                 border-color: white;
                 &:hover{
                     background: rgb(251, 250, 253);
-                    color: $primaryColor;
-                    border-color: $primaryColor;
+                    color: $primaryBlue;
+                    border-color: $primaryBlue;
                     border-width: 2px;
                     border-style: solid;
                 }
                 .drop-down {
-                    color: $primaryColor;
+                    color: $primaryBlue;
                     font-size: 30px;
                     top: 0;
                     right: 0;

@@ -23,7 +23,7 @@ header .logo-container .logo {
   font-size: 40px;
   margin: 5px auto;
   z-index: 1000;
-  color: #140388;
+  color: #371BFA;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ header .logo-container .logo {
   font-size: 40px;
   border: transparent;
   background: transparent;
-  color: #140388;
+  color: #371BFA;
   cursor: pointer;
   outline: none;
   z-index: 100;
@@ -48,6 +48,8 @@ header .logo-container .logo {
           box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: hidden;
+  /* background-image: linear-gradient(to right top, #db4328, #ff7045, #f0a818,); */
+  /*  background: linear-gradient(229deg, $primaryOrange 20%, $primaryBlue 100%); */
   background: #b8b4ff;
   background: linear-gradient(229deg, #b8b4ff 0%, #98c7ff 100%);
   -webkit-transition: all 0.3s;
@@ -60,7 +62,8 @@ header .logo-container .logo {
 }
 
 .menu-container .navlist .navlist-item .active {
-  background: #140388;
+  background: #371BFA;
+  border-color: #371BFA;
   color: white;
 }
 
@@ -74,7 +77,7 @@ header .logo-container .logo {
       -ms-flex-direction: row;
           flex-direction: row;
   background: white;
-  color: #140388;
+  color: #371BFA;
   font-size: 18px;
   border-radius: 5px;
   text-decoration: none;
@@ -87,14 +90,14 @@ header .logo-container .logo {
 
 .menu-container .navlist .navlist-item a:hover {
   background: #fbfafd;
-  color: #140388;
-  border-color: #140388;
+  color: #371BFA;
+  border-color: #371BFA;
   border-width: 2px;
   border-style: solid;
 }
 
 .menu-container .navlist .navlist-item a .drop-down {
-  color: #140388;
+  color: #371BFA;
   font-size: 30px;
   top: 0;
   right: 0;
@@ -146,7 +149,7 @@ footer {
 
 body {
   background-color: #ffff;
-  font-family: Quicksand;
+  font-family: Roboto;
 }
 
 .main-content {
@@ -155,9 +158,6 @@ body {
 }
 
 .main-content section {
-  /*  margin: 0 6vw;
-        padding-bottom: 4vw;
-        padding-top: 2vw; */
   text-align: justify;
   max-width: 60em;
   margin: auto;
@@ -165,31 +165,29 @@ body {
 }
 
 .main-content section h1 {
-  color: #140388;
-  font-size: xx-large;
+  color: #ED6C05;
+  font-size: 2rem;
   line-height: 2;
 }
 
 .main-content section h2 {
-  color: #140388;
-  font-size: x-large;
-  font-weight: 700;
+  color: #ED6C05;
+  font-size: 1.7rem;
   line-height: 2;
   margin-top: 50px;
 }
 
 .main-content section h3 {
-  color: #140388;
-  font-size: large;
+  color: #ED6C05;
+  font-size: 1.5rem;
   line-height: 2;
   margin-top: 30px;
 }
 
 .main-content section p {
-  max-width: 60em;
-  margin: auto;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main-content section .callout {
@@ -200,11 +198,11 @@ body {
 }
 
 .main-content section button {
-  background-color: #140388;
+  background-color: #371BFA;
   color: white;
   min-height: 44px;
   border: none;
-  font-family: Quicksand;
+  font-family: 'Noto Sans', sans-serif;
   padding: 10px;
   font-size: 1.1em;
   margin-top: 2em;
@@ -217,7 +215,6 @@ body {
 }
 
 .exampleImg {
-  max-width: 60em;
   width: 100%;
   margin: 2vw 0;
 }

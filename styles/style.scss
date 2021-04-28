@@ -3,62 +3,58 @@
 
 body {
     background-color: #ffff;
-    font-family: Quicksand;
+    font-family: Roboto;
 }
 
 .main-content{
     padding-top: 50px;
     min-height: calc(100vh - 130px);
     section{
-       /*  margin: 0 6vw;
-        padding-bottom: 4vw;
-        padding-top: 2vw; */
         text-align: justify;
         max-width: 60em;
         margin: auto;
         padding: 2vw 3vw 4vw 3vw;
         h1{
-            color: $primaryColor;
-            font-size:xx-large;
+            color: $primaryOrange;
+            font-size: $h1;
             line-height: 2;
         }
         h2{
-            color: $primaryColor;
-            font-size: x-large;
-            font-weight: 700;
+            color: $primaryOrange;
+            font-size: $h2;
             line-height: 2;
             margin-top: 50px;
         }
         h3{
-            color: $primaryColor;
-            font-size: large;
+            color: $primaryOrange;
+            font-size: $h3;
             line-height: 2;
             margin-top: 30px;
         }
         p{
-            max-width: 60em;
-            margin: auto;
-            font-size: 1.1em;
+            font-size: $p;
             line-height: 1.6;
+            font-family: 'Open Sans', sans-serif;
         }
         .callout{
-            background-color: #e1e7ff;
+            background-color: $callOutColor;
             padding: 1em;
             margin: 1em auto;
             max-width: 55em;
         }
         
         button{
-            background-color: $primaryColor;
+            background-color: $primaryBlue;
             color: white;
             min-height: 44px;
             border: none;
-            font-family: Quicksand;
+            font-family: 'Noto Sans', sans-serif;
             padding: 10px;
             font-size: 1.1em;
             margin-top: 2em;
             border-radius: 5px;
             cursor: pointer;
+            
             &:hover{
                 background-color: #2a199c;
             }
@@ -67,7 +63,6 @@ body {
 }
 
 .exampleImg{
-    max-width: 60em;
     width: 100%;
     margin: 2vw 0;
 }
