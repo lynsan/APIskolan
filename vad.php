@@ -3,7 +3,7 @@
     <div class="main-content" onclick="hide_menu()">
         <section>
             <h1>Vad är ett API?</h1>
-            <p>Application Program Interface förkortas API och är ett begrepp som är vanligt att höra inom programmering. Men vad är API för något? Det kan beskrivas som ett sätt att hämta och skicka data. API fungerar som en bro för att program, system och applikationer ska kunna kommunicera mellan varandra på ett enkelt sätt.</p>
+            <p>Application Program Interface förkortas API är ett begrepp som är vanligt att höra inom programmering. Men vad är API för något? Det kan beskrivas som ett sätt att hämta och skicka data.</p>
             <div class="callout">
                 <p>API fungerar som en bro för att program, system och applikationer ska kunna kommunicera mellan varandra på ett enkelt sätt.</p>
             </div>
