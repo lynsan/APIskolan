@@ -155,10 +155,13 @@ body {
 }
 
 .main-content section {
-  margin: 0 6vw;
-  padding-bottom: 4vw;
-  padding-top: 2vw;
+  /*  margin: 0 6vw;
+        padding-bottom: 4vw;
+        padding-top: 2vw; */
   text-align: justify;
+  max-width: 60em;
+  margin: auto;
+  padding: 2vw 3vw 4vw 3vw;
 }
 
 .main-content section h1 {
@@ -216,7 +219,7 @@ body {
 .exampleImg {
   max-width: 60em;
   width: 100%;
-  margin: 2vw;
+  margin: 2vw 0;
 }
 
 @media screen and (min-width: 1200px) {
