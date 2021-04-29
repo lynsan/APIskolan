@@ -10,7 +10,6 @@ body {
     padding-top: 50px;
     min-height: calc(100vh - 130px);
     section{
-        text-align: justify;
         max-width: 60em;
         margin: auto;
         padding: 2vw 3vw 4vw 3vw;
@@ -48,13 +47,13 @@ body {
             color: white;
             min-height: 44px;
             border: none;
-            font-family: 'Noto Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             padding: 10px;
             font-size: 1.1em;
-            margin-top: 2em;
             border-radius: 5px;
             cursor: pointer;
-            
+            display: flex;
+            margin: 2em auto;
             &:hover{
                 background-color: #2a199c;
             }
