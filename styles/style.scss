@@ -41,23 +41,27 @@ body {
             margin: 1em auto;
             max-width: 55em;
         }
-        
-        button{
-            background-color: $primaryBlue;
-            color: white;
-            min-height: 44px;
-            border: none;
-            font-family: 'Roboto', sans-serif;
-            padding: 10px;
-            font-size: 1.1em;
-            border-radius: 5px;
-            cursor: pointer;
+
+        .nav-buttons{
             display: flex;
-            margin: 2em auto;
-            &:hover{
-                background-color: #2a199c;
+            button{
+                background-color: $primaryBlue;
+                color: white;
+                min-height: 44px;
+                width: 110px;
+                border: none;
+                font-family: 'Roboto', sans-serif;
+                padding: 10px;
+                font-size: 1.1em;
+                border-radius: 5px;
+                cursor: pointer;
+                margin: 2em auto;
+                &:hover{
+                    background-color: $hoverBlue;
+                }
             }
         }
+        
     }
 }
 

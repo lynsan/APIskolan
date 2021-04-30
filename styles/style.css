@@ -190,30 +190,34 @@ body {
 }
 
 .main-content section .callout {
-  background-color: #e1e7ff;
+  background-color: #E1E7FF;
   padding: 1em;
   margin: 1em auto;
   max-width: 55em;
 }
 
-.main-content section button {
+.main-content section .nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content section .nav-buttons button {
   background-color: #371BFA;
   color: white;
   min-height: 44px;
+  width: 110px;
   border: none;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
   font-size: 1.1em;
   border-radius: 5px;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 2em auto;
 }
 
-.main-content section button:hover {
-  background-color: #2a199c;
+.main-content section .nav-buttons button:hover {
+  background-color: #2A199C;
 }
 
 .exampleImg {
