@@ -44,6 +44,18 @@ function hide_menu(){
     }
 }
 
+function checkAnswer(ev){
+    let ans = ev;
+    if(ans.classList.contains('correct')){
+        ans.style.background = "green";
+    }
+    else{
+        ans.style.background = "red";
+        let correctAnswer = document.querySelector('.correct');
+        correctAnswer.style.background = "green";
+    }
+}
+
 
 window.onresize = function(){
     let menu = document.querySelector('.menu-container');

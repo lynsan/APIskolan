@@ -163,6 +163,21 @@ body {
   padding: 2vw 3vw 4vw 3vw;
 }
 
+.main-content section .correct {
+  color: red;
+}
+
+.main-content section .question-box {
+  display: none;
+  height: 300px;
+  background-color: aqua;
+}
+
+.main-content section .active-question {
+  display: block;
+  background-color: bisque;
+}
+
 .main-content section h1 {
   color: #ED6C05;
   font-size: 2rem;

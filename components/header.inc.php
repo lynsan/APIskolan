@@ -22,6 +22,7 @@
                     <li class="navlist-item"><a class="<?php if($page=='oppna-data'){echo 'active';} ?>" href="oppna-data.php">Öppna data</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='vad'){echo 'active';} ?>" href="vad.php">Vad är ett API?</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='varfor'){echo 'active';} ?>" href="varfor.php">Varför vill man använda ett API?</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='quiz'){echo 'active';} ?>" href="test.quiz.php">Quiz</a></li>
                     <!-- <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Hur man använder ett API<i class="fas fa-angle-down drop-down"></i></a>
                         <ul class="submenu d-none">
                             <li><a href="">Öppna data</a></li>
