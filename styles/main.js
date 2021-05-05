@@ -52,8 +52,17 @@ function checkAnswer(ev){
     else{
         ans.style.background = "red";
         let correctAnswer = document.querySelector('.correct');
+        console.log(correctAnswer);
         correctAnswer.style.background = "green";
     }
+}
+
+function nextQuestion(){
+    let activeQuestion = document.querySelector('.active-question');
+    let newQuestion = activeQuestion.nextElementSibling;
+
+    newQuestion.classList.add('active-question');
+    activeQuestion.classList.remove('active-question');
 }
 
 

@@ -7,6 +7,25 @@
             <br>
             <p>Ett exempel på det är när du vill skriva ut ett dokument. Ditt ordbehandlingsprogram måste kommunicera med operativsystemet och meddela att du vill skriva ut ditt dokument. Denna kommunikation sker då via operativsystemets API. Programmet säger “Hej, operativsystemet! Jag vill skriva ut det här dokumentet”, och operativsystemet svarar med “Okej! Jag pratar med skrivaren”.</p>
             <br>
+
+                <!-- QUIZ MODULE -->
+                <?php 
+                include('components/quiz.inc.php');
+
+                /* The first answer in the array will be the correct one */
+                $allQuestions = array(
+                    new Question("Vilket alternativ är rätt?", array("rätt svar", "decoy 1", "decoy 2")),
+                    new Question("Det här är nästa fråga", array("rätt svar", "ett annat svar", "fel svar", "ytterligare ett fel svar")),
+                    new Question("Vem är jag?", array("Pilvi", "Lyn", "Pilyn", "Lynpi")),
+                    new Question("Hur svårt är det här?", array("Så enkelt!", "såsvårfrågaherreguuud", "Det här kan jag nog", "förvirring")),
+                    new Question("Hur mycket väger ett kilo fjädrar?", array("1000 gram", "1 ton", "100 gram", "5 hekto")),
+                    new Question("Har jag en nästa knapp?", array("svar NEJ", "Ja, tyvärr", "hela sidan gick sönder", "jag vill inte svara")),
+                );
+                
+                $quiz = GenerateQuiz($allQuestions);
+                ?>
+
+            
             <p>Det som gör det så bra med API:er är att ditt ordbehandlingsprogram då inte behöver oroa sig för hur man pratar med skrivaren, utan kan bara be operativsystemet, som har bättre koll, att göra det. Om du då har ett annat program som vill skriva ut saker, så kan det göra det med API på samma sätt som ditt ordbehandlingsprogram.</p>
             <div class="callout">
                 <p>Ett API fungerar som en bro för att program, system och applikationer ska kunna kommunicera mellan varandra på ett enkelt sätt.</p>

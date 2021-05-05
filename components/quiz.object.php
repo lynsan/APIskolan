@@ -17,7 +17,7 @@ class Question{
 
     function AddButtons(){
 
-        for($x = 0; $x <= 3; $x++){
+        for($x = 0; $x < count($this->decoys); $x++){
     
             if($this->decoys[$x] == $this->answer){
                 $this->buttons[$x] = '<button class="correct alternative" onclick="checkAnswer(this)">'.$this->decoys[$x].'</button>';

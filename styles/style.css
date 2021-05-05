@@ -167,15 +167,24 @@ body {
   color: red;
 }
 
+.main-content section .quiz {
+  display: block;
+  background-color: #E1E7FF;
+}
+
 .main-content section .question-box {
-  display: none;
-  height: 300px;
-  background-color: aqua;
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
 }
 
 .main-content section .active-question {
-  display: block;
-  background-color: bisque;
+  position: inherit;
+  visibility: visible;
+  opacity: 1;
+  background-color: #E1E7FF;
 }
 
 .main-content section h1 {
