@@ -16,11 +16,13 @@ function GenerateQuiz($allQuestions){
         echo $questionBoxDiv;
         
         PrintQuestion($question);
+        
+        echo '<div class="button-box">';
         PrintButtons($question);
-
+        echo '</div>';
         //skriver endast ut nästaknappen om det inte är sista frågan
         if($question != end($allQuestions)){
-            echo '<button onclick="nextQuestion()">nästa fråga</button>';
+            echo '<button class="next" onclick="nextQuestion()">Nästa</button>';
         }
 
         echo '</div>';
