@@ -23,7 +23,7 @@ header .logo-container .logo {
   font-size: 40px;
   margin: 5px auto;
   z-index: 1000;
-  color: #371BFA;
+  color: #FF7B16;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ header .logo-container .logo {
   font-size: 40px;
   border: transparent;
   background: transparent;
-  color: #371BFA;
+  color: #2D2D2D;
   cursor: pointer;
   outline: none;
   z-index: 100;
@@ -48,10 +48,8 @@ header .logo-container .logo {
           box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: hidden;
-  /* background-image: linear-gradient(to right top, #db4328, #ff7045, #f0a818,); */
-  /*  background: linear-gradient(229deg, $primaryOrange 20%, $primaryBlue 100%); */
-  background: #b8b4ff;
-  background: linear-gradient(229deg, #b8b4ff 0%, #98c7ff 100%);
+  background: #2D2D2D;
+  border-right: 7px solid #ED6C05;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   width: 0;
@@ -61,10 +59,25 @@ header .logo-container .logo {
   padding-top: 50px;
 }
 
+.menu-container .navlist .navlist-item {
+  /* {
+                text-decoration: underline;
+                text-decoration-color: $primaryOrange;
+                text-decoration-thickness: 5px;
+                text-underline-offset: 0.2em;
+            }  */
+}
+
 .menu-container .navlist .navlist-item .active {
-  background: #371BFA;
-  border-color: #371BFA;
-  color: white;
+  display: inline-block;
+}
+
+.menu-container .navlist .navlist-item .active::after {
+  content: '';
+  height: 5px;
+  background: #ED6C05;
+  border-radius: 5px;
+  display: block;
 }
 
 .menu-container .navlist .navlist-item a {
@@ -76,28 +89,20 @@ header .logo-container .logo {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background: white;
-  color: #371BFA;
+  color: white;
   font-size: 18px;
   border-radius: 5px;
   text-decoration: none;
   margin: 3%;
   padding: 2%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
 }
 
 .menu-container .navlist .navlist-item a:hover {
-  background: #fbfafd;
-  color: #371BFA;
-  border-color: #371BFA;
-  border-width: 2px;
-  border-style: solid;
+  color: #ED6C05;
 }
 
 .menu-container .navlist .navlist-item a .drop-down {
-  color: #371BFA;
+  color: white;
   font-size: 30px;
   top: 0;
   right: 0;
@@ -238,15 +243,16 @@ body {
 }
 
 .main-content section h2 {
-  color: #ED6C05;
+  color: #2D2D2D;
   font-size: 1.7rem;
   line-height: 2;
   margin-top: 50px;
 }
 
 .main-content section h3 {
-  color: #ED6C05;
+  color: #2D2D2D;
   font-size: 1.5rem;
+  font-weight: 500;
   line-height: 2;
   margin-top: 30px;
 }
@@ -264,6 +270,21 @@ body {
   max-width: 55em;
 }
 
+.main-content section .postman-guide-img {
+  max-width: 90%;
+  display: block;
+  margin: 4vw auto;
+  border: #ED6C05 5px solid;
+}
+
+.main-content section .vertical {
+  max-width: 50%;
+}
+
+.main-content section .smallImg {
+  max-width: 30%;
+}
+
 .main-content section .nav-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,11 +292,11 @@ body {
 }
 
 .main-content section .nav-buttons button {
-  background-color: #371BFA;
-  color: white;
+  background: white;
+  color: black;
   min-height: 44px;
   width: 110px;
-  border: none;
+  border: #ED6C05 2px solid;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
   font-size: 1.1em;
@@ -285,7 +306,8 @@ body {
 }
 
 .main-content section .nav-buttons button:hover {
-  background-color: #2A199C;
+  background-color: #2D2D2D;
+  color: #ED6C05;
 }
 
 .exampleImg {
