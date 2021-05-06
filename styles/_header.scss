@@ -18,7 +18,7 @@ header {
             font-size: 40px;
             margin: 5px auto;
             z-index: 1000;
-            color: $primaryBlue;
+            color: #FF7B16;
             text-decoration: none; 
         }
     }
@@ -28,7 +28,7 @@ header {
     font-size: 40px;
     border: transparent;
     background: transparent;
-    color: $primaryBlue;
+    color: $primaryGray;
     cursor: pointer;
     outline: none;
     z-index: 100;
@@ -44,43 +44,44 @@ header {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: hidden;
-    /* background-image: linear-gradient(to right top, #db4328, #ff7045, #f0a818,); */
-   /*  background: linear-gradient(229deg, $primaryOrange 20%, $primaryBlue 100%); */
-    background: rgb(184,180,255);
-    background: linear-gradient(229deg, rgba(184,180,255,1) 0%, rgba(152,199,255,1) 100%);
+    background: $primaryGray;
+    border-right: 7px solid $primaryOrange;
     transition: all 0.3s;
     width: 0;
     .navlist{
         padding-top: 50px;
         .navlist-item { 
             .active{
-                background: $primaryBlue;
-                border-color: $primaryBlue;
-                color: white;
-            }   
+                display: inline-block;
+            }
+            .active::after{          
+              content: '';
+              height: 5px;
+              background: $primaryOrange;
+              border-radius: 5px;
+              display: block;           
+            }
+            /* {
+                text-decoration: underline;
+                text-decoration-color: $primaryOrange;
+                text-decoration-thickness: 5px;
+                text-underline-offset: 0.2em;
+            }  */  
             a {
                 position: relative;
                 display: flex;
                 flex-direction: row;
-                background: white;
-                color: $primaryBlue;
+                color: white;
                 font-size: 18px;
                 border-radius: 5px;
                 text-decoration: none;
                 margin: 3%;
                 padding: 2%;
-                border-style: solid;
-                border-width: 2px;
-                border-color: white;
                 &:hover{
-                    background: rgb(251, 250, 253);
-                    color: $primaryBlue;
-                    border-color: $primaryBlue;
-                    border-width: 2px;
-                    border-style: solid;
+                    color: $primaryOrange;
                 }
                 .drop-down {
-                    color: $primaryBlue;
+                    color: white;
                     font-size: 30px;
                     top: 0;
                     right: 0;

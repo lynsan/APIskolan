@@ -19,14 +19,15 @@ body {
             line-height: 2;
         }
         h2{
-            color: $primaryOrange;
+            color: $primaryGray;
             font-size: $h2;
             line-height: 2;
             margin-top: 50px;
         }
         h3{
-            color: $primaryOrange;
+            color: $primaryGray;
             font-size: $h3;
+            font-weight:500;
             line-height: 2;
             margin-top: 30px;
         }
@@ -41,15 +42,26 @@ body {
             margin: 1em auto;
             max-width: 55em;
         }
-
+        .postman-guide-img{
+            max-width: 90%;
+            display: block;
+            margin: 4vw auto;
+            border: $primaryOrange 5px solid;
+        }
+        .vertical{
+            max-width: 50%;
+        }
+        .smallImg{
+            max-width: 30%;
+        }
         .nav-buttons{
             display: flex;
             button{
-                background-color: $primaryBlue;
-                color: white;
+                background: white;
+                color: black;
                 min-height: 44px;
                 width: 110px;
-                border: none;
+                border: $primaryOrange 2px solid;
                 font-family: 'Roboto', sans-serif;
                 padding: 10px;
                 font-size: 1.1em;
@@ -57,7 +69,8 @@ body {
                 cursor: pointer;
                 margin: 2em auto;
                 &:hover{
-                    background-color: $hoverBlue;
+                    background-color: $primaryGray;
+                    color: $primaryOrange;
                 }
             }
         }
@@ -75,5 +88,6 @@ body {
         width: 80vw;
         float: right;
     }
+    
 
 }
