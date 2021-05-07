@@ -14,13 +14,7 @@ header {
     .logo-container{
         width: 100vw;
         text-align: center;
-        .logo {
-            font-size: 40px;
-            margin: 5px auto;
-            z-index: 1000;
-            color: #FF7B16;
-            text-decoration: none; 
-        }
+        z-index: -10;
     }
 }
 

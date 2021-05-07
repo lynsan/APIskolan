@@ -38,6 +38,9 @@
             </div>
         </div>
         <div class="logo-container" onclick="hide_menu()">
-            <a class="logo" href="index.php">APIskolan</a>
+            <a class="logo" href="index.php">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 400 150" width="150pt" height="50pt"><defs><clipPath id="_clipPath_45aeEg2OIR3Idpd3DCc7R6SSJbtx7caC"><rect width="400" height="150"/></clipPath></defs><g clip-path="url(#_clipPath_45aeEg2OIR3Idpd3DCc7R6SSJbtx7caC)"><g clip-path="url(#_clipPath_iWPbHGcrY7PdhLwt6TmfBS6MW3cbbMMf)"><text transform="matrix(1,0,0,1,38,94.146)" style="font-family:'Quicksand';font-weight:400;font-size:60px;font-style:normal;fill:#000000;stroke:none;">APISKOLAN</text></g><defs><clipPath id="_clipPath_iWPbHGcrY7PdhLwt6TmfBS6MW3cbbMMf"><rect x="0" y="0" width="325" height="75" transform="matrix(1,0,0,1,38,34.146)"/></clipPath></defs><path d="M 30 21.15 L 370 21.15 C 373.587 21.15 376.5 24.063 376.5 27.65 L 376.5 27.65 C 376.5 31.237 373.587 34.15 370 34.15 L 30 34.15 C 26.413 34.15 23.5 31.237 23.5 27.65 L 23.5 27.65 C 23.5 24.063 26.413 21.15 30 21.15 Z" style="stroke:none;fill:#ED6C05;stroke-miterlimit:10;"/><path d="M 30 115.85 L 370 115.85 C 373.587 115.85 376.5 118.763 376.5 122.35 L 376.5 122.35 C 376.5 125.937 373.587 128.85 370 128.85 L 30 128.85 C 26.413 128.85 23.5 125.937 23.5 122.35 L 23.5 122.35 C 23.5 118.763 26.413 115.85 30 115.85 Z" style="stroke:none;fill:#ED6C05;stroke-miterlimit:10;"/></g></svg>
+            </a>
+
         </div>
     </header>
