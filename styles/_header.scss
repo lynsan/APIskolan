@@ -11,6 +11,7 @@ header {
     position: fixed;
     width: 100%;
     background: white;
+    padding-top: 0.5em;
     .logo-container{
         width: 100vw;
         text-align: center;
@@ -22,7 +23,7 @@ header {
     font-size: 40px;
     border: transparent;
     background: transparent;
-    color: $primaryGray;
+    color: $primaryColor;
     cursor: pointer;
     outline: none;
     z-index: 100;
@@ -38,8 +39,8 @@ header {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: hidden;
-    background: $primaryGray;
-    border-right: 7px solid $primaryOrange;
+    background: $primaryColor;
+    border-right: 7px solid $secondaryColor;
     transition: all 0.3s;
     width: 0;
     .navlist{
@@ -51,16 +52,10 @@ header {
             .active::after{          
               content: '';
               height: 5px;
-              background: $primaryOrange;
+              background: $secondaryColor;
               border-radius: 5px;
               display: block;           
-            }
-            /* {
-                text-decoration: underline;
-                text-decoration-color: $primaryOrange;
-                text-decoration-thickness: 5px;
-                text-underline-offset: 0.2em;
-            }  */  
+            } 
             a {
                 position: relative;
                 display: flex;
@@ -72,7 +67,7 @@ header {
                 margin: 3%;
                 padding: 2%;
                 &:hover{
-                    color: $primaryOrange;
+                    color: $secondaryColor;
                 }
                 .drop-down {
                     color: white;

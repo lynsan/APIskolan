@@ -4,7 +4,7 @@
 .quiz{
     display: block;
     background-color: white;
-    border: $primaryOrange 3px solid;
+    border: $detailColor 3px solid;
     border-radius: 15px;
     max-width: 30em;
     margin: 0 auto 2% auto;
@@ -35,7 +35,7 @@
             font-family: Open Sans;
             font-size: $p;
             &:hover{
-                color: $primaryOrange;
+                color: $secondaryColor;
                 background-color: #2D2D2D; /*<---- Fix this color*/
             }
         }

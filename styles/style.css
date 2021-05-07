@@ -12,6 +12,7 @@ header {
   position: fixed;
   width: 100%;
   background: white;
+  padding-top: 0.5em;
 }
 
 header .logo-container {
@@ -42,7 +43,7 @@ header .logo-container {
   overflow-x: hidden;
   overflow-y: hidden;
   background: #2D2D2D;
-  border-right: 7px solid #ED6C05;
+  border-right: 7px solid #BC5757;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   width: 0;
@@ -52,15 +53,6 @@ header .logo-container {
   padding-top: 50px;
 }
 
-.menu-container .navlist .navlist-item {
-  /* {
-                text-decoration: underline;
-                text-decoration-color: $primaryOrange;
-                text-decoration-thickness: 5px;
-                text-underline-offset: 0.2em;
-            }  */
-}
-
 .menu-container .navlist .navlist-item .active {
   display: inline-block;
 }
@@ -68,7 +60,7 @@ header .logo-container {
 .menu-container .navlist .navlist-item .active::after {
   content: '';
   height: 5px;
-  background: #ED6C05;
+  background: #BC5757;
   border-radius: 5px;
   display: block;
 }
@@ -91,7 +83,7 @@ header .logo-container {
 }
 
 .menu-container .navlist .navlist-item a:hover {
-  color: #ED6C05;
+  color: #BC5757;
 }
 
 .menu-container .navlist .navlist-item a .drop-down {
@@ -168,7 +160,7 @@ body {
 .main-content section .quiz {
   display: block;
   background-color: white;
-  border: #ED6C05 3px solid;
+  border: #05463A 3px solid;
   border-radius: 15px;
   max-width: 30em;
   margin: 0 auto 2% auto;
@@ -205,7 +197,7 @@ body {
 }
 
 .main-content section .question-box .button-box .alternative:hover {
-  color: #ED6C05;
+  color: #BC5757;
   background-color: #2D2D2D;
   /*<---- Fix this color*/
 }
@@ -230,9 +222,10 @@ body {
 }
 
 .main-content section h1 {
-  color: #ED6C05;
+  color: #BC5757;
   font-size: 2rem;
   line-height: 2;
+  font-weight: 500;
 }
 
 .main-content section h2 {
@@ -257,7 +250,7 @@ body {
 }
 
 .main-content section .callout {
-  background-color: #E1E7FF;
+  background-color: #E9EDFC;
   padding: 1em;
   margin: 1em auto;
   max-width: 55em;
@@ -267,7 +260,7 @@ body {
   max-width: 90%;
   display: block;
   margin: 4vw auto;
-  border: #ED6C05 5px solid;
+  border: #BC5757 2px solid;
 }
 
 .main-content section .vertical {
@@ -289,7 +282,7 @@ body {
   color: black;
   min-height: 44px;
   width: 120px;
-  border: #ED6C05 2px solid;
+  border: #05463A 2px solid;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
   font-size: 1.1em;
@@ -300,7 +293,7 @@ body {
 
 .main-content section .nav-buttons button:hover {
   background-color: #2D2D2D;
-  color: #ED6C05;
+  color: #BC5757;
 }
 
 .exampleImg {
