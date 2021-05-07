@@ -17,14 +17,7 @@ header {
 header .logo-container {
   width: 100vw;
   text-align: center;
-}
-
-header .logo-container .logo {
-  font-size: 40px;
-  margin: 5px auto;
-  z-index: 1000;
-  color: #FF7B16;
-  text-decoration: none;
+  z-index: -10;
 }
 
 .hamburger-icon {
@@ -166,6 +159,74 @@ body {
   max-width: 60em;
   margin: auto;
   padding: 2vw 3vw 4vw 3vw;
+}
+
+.main-content section .correct {
+  color: red;
+}
+
+.main-content section .quiz {
+  display: block;
+  background-color: white;
+  border: #ED6C05 3px solid;
+  border-radius: 15px;
+  max-width: 30em;
+  margin: 0 auto 2% auto;
+  -webkit-box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.42);
+          box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.42);
+}
+
+.main-content section .question-box {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+  text-align: center;
+}
+
+.main-content section .question-box .question {
+  font-size: 1.5rem;
+  margin: 4%;
+}
+
+.main-content section .question-box .button-box .alternative {
+  width: 90%;
+  margin: 1%;
+  padding: 1.5%;
+  padding-left: 3%;
+  background-color: white;
+  border-radius: 6px;
+  border: #2D2D2D 1px solid;
+  /*<------ Fix this color*/
+  text-align: start;
+  font-family: Open Sans;
+  font-size: 1.1rem;
+}
+
+.main-content section .question-box .button-box .alternative:hover {
+  color: #ED6C05;
+  background-color: #2D2D2D;
+  /*<---- Fix this color*/
+}
+
+.main-content section .question-box .next {
+  border: none;
+  color: black;
+  font-size: 1.1rem;
+  background-color: white;
+  margin: 3%;
+}
+
+.main-content section .question-box .next:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.main-content section .active-question {
+  position: inherit;
+  visibility: visible;
+  opacity: 1;
 }
 
 .main-content section h1 {
