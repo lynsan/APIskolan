@@ -14,7 +14,7 @@
 
                 /* The first answer in the array will be the correct one */
                 $allQuestions = array(
-                    new Question("Vilket alternativ är rätt?", array("rätt svar", "decoy 1", "decoy 2")),
+                    new Question("Vilket alternativ är rätt?", array("rätt svar", "decoy 1", "decoy 2", "decoy 3")),
                     new Question("Det här är nästa fråga", array("rätt svar", "ett annat svar", "fel svar", "ytterligare ett fel svar")),
                     new Question("Vem är jag?", array("Pilvi", "Lyn", "Pilyn", "Lynpi")),
                     new Question("Hur svårt är det här?", array("Så enkelt!", "såsvårfrågaherreguuud", "Det här kan jag nog", "förvirring")),
@@ -32,6 +32,10 @@
             </div>
             <img class="exampleImg"src="images/APItidtabellexempel.svg" alt="">
             <p>Säg att du ska åka och hälsa på en vän. För att ta reda på när bussen går och hur lång tid din resa kommer att ta så kanske du använder dig av en reseapp på telefonen. Där skriver du in vilka stationer du ska åka från och till, och när du vill vara framme. Det som händer då är att reseappen frågar trafikföretagets API “Hej, kan jag få en busstidtabell för just dessa hållplatser?”. API:et plockar då fram den informationen från trafikföretagets servrar och skickar tillbaka tidtabellen till din reseapp som då kan visa när bussen går från din hållplats och hur lång tid resan kommer att ta.</p>
+            <div class="nav-buttons">
+                <button type="button" onclick="location.href='oppna-data.php';">Föregående</button>
+                <button type="button" onclick="location.href='postman-guide.php';">Nästa</button>
+            </div>
         </section>
     </div>
     

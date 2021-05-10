@@ -2,15 +2,15 @@
 
     <div class="main-content" onclick="hide_menu()">
         <section>
-            <h1>Hur använder man ett API?</h1>
+            <h1>API i Postman</h1>
+            <p>Du kan testa olika API:er i verktyget Postman. Det är en mjukvara som du kan använda för att testa API:er, vilket är ett bra verktyg att använda när du lär dig om API.</p>
+            <br>
             <p>💻 <- Indikerar en uppgift</p>
             <p>💡 <- Indikerar en information</p>
             <p>🤩 <- Indikerar att det händer coola saker</p>
-            <h3>Testa API:er i Postman</h3>
-            <p>Du kan testa olika API:er i verktyget Postman. Det är en mjukvara som du kan använda för att testa API:er, vilket är ett bra verktyg att använda när du lär dig om API.</p>
             <br>
             <!-- Guide för att installera och öppna Postman -->
-            <p>💻Installera Postman</p>
+            <p>💻Börja med att installera Postman</p>
             <br>
             <p>1. Besök https://www.postman.com/downloads/</p>
             <p>2. Under “Download Postman” kan du klicka på “Download the App” om du har Windows operativsystem, annars längre ner där det står “Not your OS?” kan du välja att klicka den som matchar ditt operativsystem:</p>
