@@ -11,10 +11,11 @@ header {
     position: fixed;
     width: 100%;
     background: white;
+    z-index: 100;
     .logo-container{
+        position: relative;
         width: 100vw;
         text-align: center;
-        z-index: -10;
     }
 }
 
@@ -42,6 +43,7 @@ header {
     border-right: 7px solid $primaryOrange;
     transition: all 0.3s;
     width: 0;
+    z-index: 99;
     .navlist{
         padding-top: 50px;
         .navlist-item { 

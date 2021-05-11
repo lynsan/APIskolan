@@ -22,7 +22,10 @@ function GenerateQuiz($allQuestions){
         echo '</div>';
         //skriver endast ut nästaknappen om det inte är sista frågan
         if($question != end($allQuestions)){
-            echo '<button class="next" onclick="nextQuestion()">Nästa</button>';
+            echo '<button class="next" onclick="nextQuestion()">Nästa<i class="fas fa-chevron-right next-icon"></i></button>';
+        }
+        else{
+            echo '<button class="next" onclick="resetQuiz()">Försök igen<i class="fas fa-sync-alt next-icon"></i></button>';
         }
 
         echo '</div>';
