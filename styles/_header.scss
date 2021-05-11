@@ -40,7 +40,6 @@ header {
     overflow-x: hidden;
     overflow-y: hidden;
     background: $primaryColor;
-    border-right: 7px solid $secondaryColor;
     transition: all 0.3s;
     width: 0;
     .navlist{
@@ -61,21 +60,19 @@ header {
                 display: flex;
                 flex-direction: row;
                 color: white;
-                font-size: 18px;
+                font-size: 1.2rem;
                 border-radius: 5px;
                 text-decoration: none;
                 margin: 3%;
                 padding: 2%;
-                &:hover{
+                &:hover,
+                &:hover > .drop-down{
                     color: $secondaryColor;
                 }
                 .drop-down {
                     color: white;
-                    font-size: 30px;
-                    top: 0;
-                    right: 0;
-                    position: absolute;
-                    margin-right: 3%;
+                    font-size: 1.5rem;
+                    margin: 0 3% 0 3%;
                 }
             }
             .submenu {
@@ -91,6 +88,7 @@ header {
     }
     .menu-container {
         width: 20vw;
+        border-right: 7px solid $secondaryColor;
     }
     header .logo-container{
         margin-left: 20vw;

@@ -43,7 +43,6 @@ header .logo-container {
   overflow-x: hidden;
   overflow-y: hidden;
   background: #2D2D2D;
-  border-right: 7px solid #BC5757;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   width: 0;
@@ -75,24 +74,22 @@ header .logo-container {
       -ms-flex-direction: row;
           flex-direction: row;
   color: white;
-  font-size: 18px;
+  font-size: 1.2rem;
   border-radius: 5px;
   text-decoration: none;
   margin: 3%;
   padding: 2%;
 }
 
-.menu-container .navlist .navlist-item a:hover {
+.menu-container .navlist .navlist-item a:hover,
+.menu-container .navlist .navlist-item a:hover > .drop-down {
   color: #BC5757;
 }
 
 .menu-container .navlist .navlist-item a .drop-down {
   color: white;
-  font-size: 30px;
-  top: 0;
-  right: 0;
-  position: absolute;
-  margin-right: 3%;
+  font-size: 1.5rem;
+  margin: 0 3% 0 3%;
 }
 
 .menu-container .navlist .navlist-item .submenu {
@@ -105,6 +102,7 @@ header .logo-container {
   }
   .menu-container {
     width: 20vw;
+    border-right: 7px solid #BC5757;
   }
   header .logo-container {
     margin-left: 20vw;
