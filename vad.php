@@ -1,6 +1,6 @@
 <?php $page = 'vad';require('components/header.inc.php')?>
 
-    <div class="main-content" onclick="hide_menu()">
+    <div class="main-content" onclick="hideMenu()">
         <section>
             <h1>Vad är ett API?</h1>
             <p>API är en förkortning för Application Program Interface och är ett begrepp som är vanligt att höra inom programmering. Men vad är ett API för något? Man kan beskriva ett API som ett sätt att hämta och skicka data mellan två olika program.</p>

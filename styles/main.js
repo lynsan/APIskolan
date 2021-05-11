@@ -29,20 +29,23 @@ function changeMenuWidth(newWidth){
         {
             menu.style.width = "0";
             menu.style.border = "none";
+            document.querySelector(".close-icon").style.visibility = "hidden";
         }
         else{
             menu.style.width = newWidth;
             menu.style.borderRight = "7px solid #BC5757";
+            document.querySelector(".close-icon").style.visibility = "visible";
         }
 }
 
-function hide_menu(){
+function hideMenu(){
     let large = window.matchMedia("(min-width: 1200px)");
     let menu = document.querySelector('.menu-container');
     if(!large.matches){
 
         menu.style.width = "0";
-        menu.style.border = none;
+        menu.style.border = "none";
+        document.querySelector(".close-icon").style.visibility = "hidden";
     }
 }
 
@@ -51,10 +54,12 @@ window.onresize = function(){
     if(window.innerWidth >= 1200){
         menu.style.width = '20vw';
         menu.style.borderRight = "7px solid #BC5757";
+        document.querySelector(".close-icon").style.visibility = "hidden";
     }
     else{
         menu.style.width = '0';
         menu.style.border = "none";
+        document.querySelector(".close-icon").style.visibility = "hidden";
     }
 }
 

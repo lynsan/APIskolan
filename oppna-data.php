@@ -1,6 +1,6 @@
 <?php $page = 'oppna-data';require('components/header.inc.php')?>
 
-    <div class="main-content" onclick="hide_menu()">
+    <div class="main-content" onclick="hideMenu()">
         <section>
             <h1>Öppna data</h1>
             <p>Innan vi går in på vad ett API är, kan det vara bra att veta vad öppna data är, då API:er och öppna data är begrepp som många gånger går hand i hand. Så vad är då öppna data?</p>

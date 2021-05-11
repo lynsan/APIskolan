@@ -18,7 +18,8 @@
 <body>
     <header>
         <div class="menu">
-            <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+            <button class="hamburger hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+            <button class="hamburger" onclick="toggleMenu()"><img class="close-icon" src="images/close-icon.svg" alt="close menu"></button>
             <div class="menu-container">
                 <ul class="navlist">
                     <li class="navlist-item"><a class="<?php if($page=='oppna-data'){echo 'active';} ?>" href="oppna-data.php">Öppna data</a></li>

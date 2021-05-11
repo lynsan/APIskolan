@@ -1,6 +1,6 @@
 <?php $page = 'varfor';require('components/header.inc.php')?>
 
-    <div class="main-content" onclick="hide_menu()">
+    <div class="main-content" onclick="hideMenu()">
         <section>
             <h1>Varför vill man använda ett API?</h1>
             <h3>Tillgängliggör data</h3>

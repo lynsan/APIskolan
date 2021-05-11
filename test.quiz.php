@@ -1,6 +1,6 @@
 <?php $page = 'quiz';require('components/header.inc.php')?>
 
-    <div class="main-content" onclick="hide_menu()">
+    <div class="main-content" onclick="hideMenu()">
         <section>
             <p>Även här uppe kan vi ha en del content</p>
 

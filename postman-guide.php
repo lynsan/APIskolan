@@ -1,6 +1,6 @@
 <?php $page = 'postman-guide';require('components/header.inc.php')?>
 
-    <div class="main-content" onclick="hide_menu()">
+    <div class="main-content" onclick="hideMenu()">
         <section>
             <h1>API i Postman</h1>
             <p>Du kan testa olika API:er i verktyget Postman. Det är en mjukvara som du kan använda för att testa API:er, vilket är ett bra verktyg att använda när du lär dig om API.</p>

@@ -19,7 +19,7 @@ header {
     }
 }
 
-.hamburger-icon {
+.hamburger {
     font-size: 40px;
     border: transparent;
     background: transparent;
@@ -30,7 +30,11 @@ header {
     position: fixed;
     margin-top: -10px;
 }
-
+.close-icon {
+    width: 100%;
+    margin: 12px 0 0 2px;
+    visibility: visible;
+}
 .menu-container{
     position: fixed;
     top: 0;
