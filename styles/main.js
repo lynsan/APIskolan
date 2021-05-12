@@ -81,8 +81,10 @@ function checkAnswer(ev){
 
     if(ans.classList.contains('correct')){
         ans.style.background = "#99FF8A";
-        ans.querySelector('.check').style.visibility = "visible";
         document.querySelector('.quiz').style.border = "#99FF8A 3px solid";
+
+        ans.querySelector('.check').style.color = "#05463A";
+        ans.querySelector('.check').style.visibility = "visible";
     }
     else{
         correctAnswer.querySelector('.check').style.color = "#99FF8A";
@@ -122,6 +124,7 @@ function nextQuestion(){
     let activeQuestion = document.querySelector('.active-question');
     let newQuestion = activeQuestion.nextElementSibling;
 
+    activeQuestion.querySelector('.check').style.visibility = "hidden";
     document.querySelector('.quiz').style.border = "#05463A 3px solid";
     newQuestion.classList.add('active-question');
     activeQuestion.classList.remove('active-question');
