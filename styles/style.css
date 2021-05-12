@@ -12,11 +12,8 @@ header {
   position: fixed;
   width: 100%;
   background: white;
-<<<<<<< HEAD
   padding-top: 0.5em;
-=======
   z-index: 100;
->>>>>>> quiz
 }
 
 header .logo-container {
@@ -53,10 +50,6 @@ header .logo-container {
   overflow-x: hidden;
   overflow-y: hidden;
   background: #2D2D2D;
-<<<<<<< HEAD
-=======
-  border-right: 7px solid #eb6c05;
->>>>>>> quiz
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   width: 0;
@@ -74,11 +67,7 @@ header .logo-container {
 .menu-container .navlist .navlist-item .active::after {
   content: '';
   height: 5px;
-<<<<<<< HEAD
   background: #BC5757;
-=======
-  background: #eb6c05;
->>>>>>> quiz
   border-radius: 5px;
   display: block;
 }
@@ -100,14 +89,9 @@ header .logo-container {
   padding: 2%;
 }
 
-<<<<<<< HEAD
 .menu-container .navlist .navlist-item a:hover,
 .menu-container .navlist .navlist-item a:hover > .drop-down {
   color: #BC5757;
-=======
-.menu-container .navlist .navlist-item a:hover {
-  color: #eb6c05;
->>>>>>> quiz
 }
 
 .menu-container .navlist .navlist-item a .drop-down {
@@ -220,12 +204,6 @@ body {
   transition: background 100ms ease;
 }
 
-<<<<<<< HEAD
-.main-content section .question-box .button-box .alternative:hover {
-  color: #BC5757;
-  background-color: #2D2D2D;
-  /*<---- Fix this color*/
-=======
 .main-content section .question-box .button-box .hover:hover {
   color: #BC5757;
   cursor: pointer;
@@ -242,7 +220,6 @@ body {
 
 .main-content section .question-box .button-box .check {
   color: #05463A;
->>>>>>> quiz
 }
 
 .main-content section .question-box .next {
@@ -274,11 +251,7 @@ body {
 }
 
 .main-content section h1 {
-<<<<<<< HEAD
   color: #BC5757;
-=======
-  color: #eb6c05;
->>>>>>> quiz
   font-size: 2rem;
   line-height: 2;
   font-weight: 500;
@@ -316,11 +289,7 @@ body {
   max-width: 90%;
   display: block;
   margin: 4vw auto;
-<<<<<<< HEAD
   border: #BC5757 2px solid;
-=======
-  border: #eb6c05 5px solid;
->>>>>>> quiz
 }
 
 .main-content section .vertical {
@@ -341,13 +310,8 @@ body {
   background: white;
   color: black;
   min-height: 44px;
-<<<<<<< HEAD
   width: 120px;
   border: #05463A 2px solid;
-=======
-  width: 110px;
-  border: #eb6c05 2px solid;
->>>>>>> quiz
   font-family: 'Roboto', sans-serif;
   padding: 10px;
   font-size: 1.1em;
@@ -358,11 +322,7 @@ body {
 
 .main-content section .nav-buttons button:hover {
   background-color: #2D2D2D;
-<<<<<<< HEAD
   color: #BC5757;
-=======
-  color: #eb6c05;
->>>>>>> quiz
 }
 
 .exampleImg {
