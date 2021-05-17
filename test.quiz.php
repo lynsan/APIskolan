@@ -2,14 +2,16 @@
 
     <div class="main-content" onclick="hideMenu()">
         <section>
-            <p>Även här uppe kan vi ha en del content</p>
+            <h1>Quiz om API </h1>           
+            <p>Quizet är bara ett roligt sätt att testa hur mycket du kan om API.</p>
+            <p>Det finns därför ingen tidsgräns för att göra quizet.</p><br>
 
             <?php 
             include('components/quiz.inc.php');
 
             /* The first answer in the array will be the correct one */
             $allQuestions = array(
-                new Question("Vilket alternativ är rätt?", array("rätt svar", "decoy 1", "decoy 2")),
+                new Question("Vad är API förkortning för?", array("Application Program Interface", "Application Period Interface", "Application Program Internet")),
                 new Question("Det här är nästa fråga", array("rätt svar", "ett annat svar", "fel svar", "ytterligare ett fel svar")),
                 new Question("Vem är jkag?", array("Pilvi", "Lyn", "Pilyn", "Lynpi")),
                 new Question("Hur svårt är det här?", array("Så enkelt!", "såsvårfrågaherregud", "Det här kan jag nog", "förvirring")),
@@ -19,8 +21,6 @@
             
             $quiz = GenerateQuiz($allQuestions);
             ?>
-
-            <p>MASSA TEXT  OCH INNEHÅLL HÄR NERE</p>
 
         </section>
     </div>
