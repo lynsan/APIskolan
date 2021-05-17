@@ -12,7 +12,7 @@
             <!-- Guide för att installera och öppna Postman -->
             <p>💻Börja med att installera Postman</p>
             <br>
-            <p>1. Besök https://www.postman.com/downloads/</p>
+            <p>1. Besök <a href="https://www.postman.com/downloads/" >https://www.postman.com/downloads/</a></p>
             <p>2. Under “Download Postman” kan du klicka på “Download the App” om du har Windows operativsystem, annars längre ner där det står “Not your OS?” kan du välja att klicka den som matchar ditt operativsystem:</p>
             <img class="postman-guide-img vertical" src="images/01-postman-download.jpg" alt="Download Postman">
             <p>💻Öppna appen Postman</p>
