@@ -300,6 +300,40 @@ body {
   max-width: 30%;
 }
 
+.main-content section .tab {
+  overflow: hidden;
+}
+
+.main-content section .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.1rem;
+}
+
+.main-content section .tab button:hover {
+  color: #BC5757;
+}
+
+.main-content section .tab .active::after {
+  content: '';
+  height: 5px;
+  background: #BC5757;
+  border-radius: 5px;
+  display: block;
+}
+
+.main-content section .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  background: #E9EDFC;
+}
+
 .main-content section .nav-buttons {
   display: -webkit-box;
   display: -ms-flexbox;

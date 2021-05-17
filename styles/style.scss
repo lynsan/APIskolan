@@ -38,7 +38,6 @@ body {
             line-height: 1.6;
             font-family: 'Open Sans', sans-serif;
         }
-
         .callout{
             background-color: $callOutColor;
             padding: 1em;
@@ -56,6 +55,34 @@ body {
         }
         .smallImg{
             max-width: 30%;
+        }
+        .tab{
+            overflow: hidden;
+            button{
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 1.1rem;
+            &:hover{
+                color: $secondaryColor;
+                }
+            }
+            .active::after{
+                content: '';
+                height: 5px;
+                background: $secondaryColor;
+                border-radius: 5px;
+                display: block;     
+            }
+        }
+        .tabcontent{
+            display: none;
+            padding: 6px 12px;
+            background: $callOutColor;
         }
         .nav-buttons{
             display: flex;
