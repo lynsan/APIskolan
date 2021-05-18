@@ -348,6 +348,10 @@ body {
   color: #1946A5;
 }
 
+.main-content section .editable {
+  outline: none;
+}
+
 .main-content section .nav-buttons {
   display: -webkit-box;
   display: -ms-flexbox;

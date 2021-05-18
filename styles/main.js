@@ -187,7 +187,66 @@ function openCodeExample(evt, programmingLanguage) {
   }
 
 
-  
+  function updateRecipient(){
+      let recipient = document.getElementById("InputRecipient").value
 
-  
-  
+      let recipients = document.getElementsByName("OutputRecipient");
+      recipients.forEach(element => {
+          element.innerText=recipient;
+      });
+  }
+
+  function updateSender(){
+    let sender = document.getElementById("InputSender").value
+
+    let senders = document.getElementsByName("OutputSender");
+    senders.forEach(element => {
+      element.innerText=sender;
+    });
+}
+
+function updateMessage(){
+    let message = document.getElementById("InputMessage").value
+
+    let messages = document.getElementsByName("OutputMessage");
+    messages.forEach(element => {
+      element.innerText=message;
+    });
+}
+
+function updateRecipientInput(ev){
+    let recipient = ev.innerText
+    document.getElementById("InputRecipient").value = recipient
+    let recipients = document.getElementsByName("OutputRecipient");
+      recipients.forEach(element => {
+        if(element !== ev){
+
+            element.innerText=recipient;
+        }  
+      });
+}
+
+function updateSenderInput(ev){
+    let sender = ev.innerText
+    document.getElementById("InputSender").value = sender
+    let senders = document.getElementsByName("OutputSender");
+      senders.forEach(element => {
+        if(element !== ev){
+
+            element.innerText=sender;
+        }  
+      });
+}
+
+function updateMessageInput(ev){
+    let message = ev.innerText
+    document.getElementById("InputMessage").value = message
+    let messages = document.getElementsByName("OutputMessage");
+      messages.forEach(element => {
+        if(element !== ev){
+
+            element.innerText=message;
+        }  
+      });
+}
+ 

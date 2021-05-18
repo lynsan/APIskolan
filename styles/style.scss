@@ -56,6 +56,9 @@ body {
         .smallImg{
             max-width: 30%;
         }
+
+
+
         .tab{
             overflow: hidden;
             button{
@@ -95,6 +98,11 @@ body {
                 color: $highlightStringColor;
             }
         }
+
+        .editable{
+            outline: none;
+        }
+
         .nav-buttons{
             display: flex;
             button{

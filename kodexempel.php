@@ -2,6 +2,11 @@
 
 <div class="main-content" onclick="hideMenu()">
     <section>
+
+        Mottagare: <input type="text" id="InputRecipient" oninput="updateRecipient()">
+        Avsändare: <input type="text" id="InputSender" oninput="updateSender()">
+        Meddelande: <input type="text" id="InputMessage" oninput="updateMessage()">
+
         <div class="tab">
             <button class="tablinks defaultOpen" onclick="openCodeExample(event, 'PHP')">PHP</button>
             <button class="tablinks" onclick="openCodeExample(event, 'JavaScript')">JavaScript</button>
@@ -33,9 +38,9 @@
                         <span class="highlight-keyword">return</span> $response;
                     }
                     $sms = <span class="highlight-keyword">array</span>(
-                        <span class="highlight-string">"from"</span> => <span class="highlight-string">"PHPElk"</span>,   /* Can be up to 11 alphanumeric characters */
-                        <span class="highlight-string">"to"</span> => <span class="highlight-string">"+46766861004"</span>,  /* The mobile number you want to send to */
-                        <span class="highlight-string">"message"</span> => <span class="highlight-string">"Bring a sweater, it's cold outside!"</span>,
+                        <span class="highlight-string">"from"</span> => <span class="highlight-string">"<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">PHPElk</code>"</span>,   /* Can be up to 11 alphanumeric characters */
+                        <span class="highlight-string">"to"</span> => <span class="highlight-string">"+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766861004</code>"</span>,  /* The mobile number you want to send to */
+                        <span class="highlight-string">"message"</span> => <span class="highlight-string">"<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Bring a sweater, it's cold outside!</code>"</span>,
                     );
                     <span class="highlight-keyword">echo</span> sendSMS($sms);
                 </code>
@@ -50,9 +55,9 @@
                 <span class="highlight-keyword">const</span> username = <span class="highlight-string">'API-username'</span>
                 <span class="highlight-keyword">const</span> password = <span class="highlight-string">'API-password'</span>
                 <span class="highlight-keyword">const</span> postFields = {
-                from:    <span class="highlight-string">"NodeElk"</span>,
-                to:      <span class="highlight-string">"+46766861004"</span>,
-                message: <span class="highlight-string">"Bring a sweater it's cold outside!"</span>
+                from:    <span class="highlight-string">"<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">NodeElk</code>"</span>,
+                to:      <span class="highlight-string">"+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766861004</code>"</span>,
+                message: <span class="highlight-string">"<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Bring a sweater, it's cold outside!</code>"</span>
                 }
 
                 <span class="highlight-keyword">const</span> key = Buffer.from(username + ':' + password).toString(<span class="highlight-string">"base64"</span>);
@@ -93,9 +98,9 @@
                             <span class="highlight-string">'https://api.46elks.com/a1/sms'</span>,
                         <span>auth</span> = (API_USERNAME, API_PASSWORD),
                         <span>data</span> = {
-                            <span class="highlight-string">'from': 'PythonElk'</span>,
-                            <span class="highlight-string">'to': '+46766861004'</span>,
-                            <span class="highlight-string">'message': "It's cold outside, bring a sweater!"</span>                        
+                            <span class="highlight-string">'from': '<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">PythonElk</code>'</span>,
+                            <span class="highlight-string">'to': '+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766861004</code>'</span>,
+                            <span class="highlight-string">'message': "<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Bring a sweater, it's cold outside!</code>"</span>                        
                         }
                     )
                     <span class="highlight-builtIn">print</span> (response.text)
@@ -115,9 +120,9 @@
                                     
                             HttpResponse response = Unirest.post(<span class="highlight-string">"https://api.46elks.com/a1/sms"</span>)
                                 .basicAuth(<span class="highlight-string">"API Username"</span>,<span class="highlight-string">"API Password"</span>)
-                                .field(<span class="highlight-string">"to"</span>,<span class="highlight-string">"+46766861004"</span>)
-                                .field(<span class="highlight-string">"from"</span>,<span class="highlight-string">"JavaElk"</span>)
-                                .field(<span class="highlight-string">"message"</span>,<span class="highlight-string">"Bring a sweater, it’s cold outside!"</span>)
+                                .field(<span class="highlight-string">"to"</span>,<span class="highlight-string">"+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766861004</code>"</span>)
+                                .field(<span class="highlight-string">"from"</span>,<span class="highlight-string">"<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">JavaElk</code>"</span>)
+                                .field(<span class="highlight-string">"message"</span>,<span class="highlight-string">"<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Bring a sweater, it's cold outside!</code>"</span>)
                                 .asString();
 
                             System.out.println(response.getBody());
@@ -140,9 +145,9 @@
                 req = Net::HTTP::Post.new(uri)
                 req.basic_auth '<API Username>', '<API Password>'
                 req.set_form_data(
-                    :from => <span class="highlight-string">'RubyElk'</span>,
-                    :to => <span class="highlight-string">'+46704508449'</span>,
-                    :message => <span class="highlight-string">'Login code 123456'</span>
+                    :from => <span class="highlight-string">'<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">RubyElk</code>'</span>,
+                    :to => <span class="highlight-string">'+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766861004</code>'</span>,
+                    :message => <span class="highlight-string">'<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Bring a sweater, it's cold outside!</code>'</span>
                 )
 
                 res = Net::HTTP.start(
