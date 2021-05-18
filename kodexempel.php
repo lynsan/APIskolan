@@ -19,46 +19,36 @@
         </div>
         <div id="PHP" class="tabcontent">
             <pre>
-                <code contenteditable="false">
-                    
+                <code contenteditable="false">                 
                     <?php include('components/examplephp.inc.php')?>
-
                 </code>
             </pre>
         </div>
         <div id="JavaScript" class="tabcontent">
             <pre>
                 <code>
-
                     <?php include('components/examplejavascript.inc.php')?>
-
                 </code>
             </pre>
         </div>
         <div id="Python" class="tabcontent">
             <pre>
                 <code>
-
                     <?php include('components/examplepython.inc.php')?>
-
                 </code>
             </pre>
         </div>
         <div id="Java" class="tabcontent">
             <pre>
                 <code>
-
                     <?php include('components/examplejava.inc.php')?>
-
                 </code>
             </pre>
         </div>
         <div id="Ruby" class="tabcontent">
             <pre>
-                <code>
-                
+                <code>              
                     <?php include('components/exampleruby.inc.php')?>
-
                 </code>
             </pre>
         </div>

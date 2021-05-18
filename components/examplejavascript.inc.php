@@ -23,7 +23,7 @@ const</span> https = <span class="highlight-builtIn">require</span>(<span class=
 }
 
 <span class="highlight-keyword">const</span> callback = (response) => {
-    <span class="highlight-keyword">var</span> str = ''
+    <span class="highlight-keyword">var</span> str = ' '
     response.on(<span class="highlight-string">'data'</span>, (chunk) => {
         str += chunk
     })
