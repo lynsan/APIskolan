@@ -1,5 +1,7 @@
 <?php $page = 'kodexempel';require('components/header.inc.php')?>
 
+<script type="text/javascript" src="styles/codeexamples.js"></script>
+
 <div class="main-content" onclick="hideMenu()">
     <section>
 
