@@ -28,7 +28,7 @@
                     <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Hur använder man ett API<i class="fas fa-angle-down drop-down"></i></a>
                         <ul class="submenu 
                         <?php 
-                        if($page !='postman-guide' && $page != 'code-example') echo 'd-none'?>">
+                        if($page !='postman-guide' && $page != 'code-examples') echo 'd-none'?>">
                             <li><a class="<?php if($page=='postman-guide'){echo 'active';} ?>" href="postman-guide.php">API i Postman</a></li>
                             <li><a class="<?php if($page=='code-examples'){echo 'active';} ?>" href="code-examples.php">Kodexempel</a></li>
                         </ul>

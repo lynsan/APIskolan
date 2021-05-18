@@ -1,4 +1,4 @@
-<?php $page = 'code-example';require('components/header.inc.php')?>
+<?php $page = 'code-examples';require('components/header.inc.php')?>
 
 <script type="text/javascript" src="styles/codeexamples.js"></script>
 
