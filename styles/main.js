@@ -159,6 +159,13 @@ function hideCheckmarks(){
     }
 }
 
+window.onload=function(){
+    let defaultOpen = document.querySelector('.defaultOpen');
+    if(defaultOpen != null){
+        defaultOpen.click();
+    }
+};
+
 function openCodeExample(evt, programmingLanguage) {
     var i, tabcontent, tablinks;
   

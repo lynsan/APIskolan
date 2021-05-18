@@ -332,6 +332,20 @@ body {
   display: none;
   padding: 6px 12px;
   background: #E9EDFC;
+  line-height: 22px;
+}
+
+.main-content section .tabcontent .highlight-keyword {
+  font-weight: 500;
+}
+
+.main-content section .tabcontent .highlight-string {
+  color: #1946A5;
+}
+
+.main-content section .tabcontent .highlight-builtIn {
+  font-weight: 500;
+  color: #1946A5;
 }
 
 .main-content section .nav-buttons {
