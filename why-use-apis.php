@@ -1,4 +1,4 @@
-<?php $page = 'varfor';require('components/header.inc.php')?>
+<?php $page = 'why-use-apis';require('components/header.inc.php')?>
 
     <div class="main-content" onclick="hideMenu()">
         <section>

@@ -23,17 +23,17 @@
             <button class="hamburger" onclick="toggleMenu()"><img class="close-icon" src="images/close-icon.svg" alt="close menu"></button>
             <div class="menu-container">
                 <ul class="navlist">
-                    <li class="navlist-item"><a class="<?php if($page=='oppna-data'){echo 'active';} ?>" href="oppna-data.php">Öppna data</a></li>
-                    <li class="navlist-item"><a class="<?php if($page=='vad'){echo 'active';} ?>" href="vad.php">Vad är ett API?</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='open-data'){echo 'active';} ?>" href="open-data.php">Öppna data</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='what-is-apis'){echo 'active';} ?>" href="what-is-apis.php">Vad är ett API?</a></li>
                     <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Hur använder man ett API<i class="fas fa-angle-down drop-down"></i></a>
                         <ul class="submenu 
                         <?php 
-                        if($page !='postman-guide' && $page != 'kodexempel') echo 'd-none'?>">
+                        if($page !='postman-guide' && $page != 'code-example') echo 'd-none'?>">
                             <li><a class="<?php if($page=='postman-guide'){echo 'active';} ?>" href="postman-guide.php">API i Postman</a></li>
-                            <li><a class="<?php if($page=='kodexempel'){echo 'active';} ?>" href="kodexempel.php">Kodexempel</a></li>
+                            <li><a class="<?php if($page=='code-examples'){echo 'active';} ?>" href="code-examples.php">Kodexempel</a></li>
                         </ul>
                     </li>
-                    <li class="navlist-item"><a class="<?php if($page=='varfor'){echo 'active';} ?>" href="varfor.php">Varför vill man använda ett API?</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='why-use-apis'){echo 'active';} ?>" href="why-use-apis.php">Varför vill man använda ett API?</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='quiz'){echo 'active';} ?>" href="test.quiz.php">Quiz</a></li>                           
                 </ul>
             </div>

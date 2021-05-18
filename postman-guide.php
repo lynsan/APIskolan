@@ -85,6 +85,10 @@
             <p>💻Klicka på “Send”.</p>
             <br>
             <p>🤩Nu har du kommunicerat med ett riktigt API!</p>
+            <div class="nav-buttons">
+                <button type="button" onclick="location.href='what-is-apis.php';">Föregående</button>
+                <button type="button" onclick="location.href='code-examples.php';">Nästa</button>
+            </div>
         </section>
     </div>
     

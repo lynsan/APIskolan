@@ -1,4 +1,4 @@
-<?php $page = 'oppna-data';require('components/header.inc.php')?>
+<?php $page = 'open-data';require('components/header.inc.php')?>
 
     <div class="main-content" onclick="hideMenu()">
         <section>
@@ -14,7 +14,7 @@
             <p>Men hur funkar då API:er? I nästa kapitel så beskriver vi närmare om vad ett API är och hur det fungerar.</p>
             <div class="nav-buttons">
                 <button type="button" onclick="location.href='index.php';">Föregående</button>
-                <button type="button" onclick="location.href='vad.php';">Nästa</button>
+                <button type="button" onclick="location.href='what-is-apis.php';">Nästa</button>
             </div>
         </section>
     </div>

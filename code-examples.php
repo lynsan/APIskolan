@@ -1,4 +1,4 @@
-<?php $page = 'kodexempel';require('components/header.inc.php')?>
+<?php $page = 'code-example';require('components/header.inc.php')?>
 
 <script type="text/javascript" src="styles/codeexamples.js"></script>
 
@@ -52,6 +52,7 @@
                 </code>
             </pre>
         </div>
+        
     </section>
 </div>
 

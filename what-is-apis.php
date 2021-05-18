@@ -1,4 +1,4 @@
-<?php $page = 'vad';require('components/header.inc.php')?>
+<?php $page = 'what-is-apis';require('components/header.inc.php')?>
 
     <div class="main-content" onclick="hideMenu()">
         <section>
@@ -33,7 +33,7 @@
             <img class="exampleImg"src="images/APItidtabellexempel.svg" alt="">
             <p>Säg att du ska åka och hälsa på en vän. För att ta reda på när bussen går och hur lång tid din resa kommer att ta så kanske du använder dig av en reseapp på telefonen. Där skriver du in vilka stationer du ska åka från och till, och när du vill vara framme. Det som händer då är att reseappen frågar trafikföretagets API “Hej, kan jag få en busstidtabell för just dessa hållplatser?”. API:et plockar då fram den informationen från trafikföretagets servrar och skickar tillbaka tidtabellen till din reseapp som då kan visa när bussen går från din hållplats och hur lång tid resan kommer att ta.</p>
             <div class="nav-buttons">
-                <button type="button" onclick="location.href='oppna-data.php';">Föregående</button>
+                <button type="button" onclick="location.href='open-data.php';">Föregående</button>
                 <button type="button" onclick="location.href='postman-guide.php';">Nästa</button>
             </div>
         </section>
