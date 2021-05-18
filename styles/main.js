@@ -1,5 +1,6 @@
 function toggleSubmenu(ev){
     let submenu = ev.lastElementChild;
+    //byt håll på pilen här
     toggleDisplayNone(submenu);
 }
 
