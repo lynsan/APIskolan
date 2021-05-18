@@ -85,7 +85,8 @@ body {
         .tabcontent{
             display: none;
             background: $callOutColor;
-            line-height: 1.7em;
+            line-height: 1.5em;
+            letter-spacing: 0.05em;
             pre{
                 white-space: pre-wrap;
                 padding: 0;
@@ -97,8 +98,11 @@ body {
                 color: $highlightStringColor;
             }
             .highlight-builtIn{
+                color: $highlightBuiltInColor;
+            }
+            .highlight-title{
                 font-weight: 500;
-                color: $highlightStringColor;
+                color: $highlightTitleColor;
             }
         }
 

@@ -331,7 +331,8 @@ body {
 .main-content section .tabcontent {
   display: none;
   background: #E9EDFC;
-  line-height: 1.7em;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
 }
 
 .main-content section .tabcontent pre {
@@ -348,8 +349,12 @@ body {
 }
 
 .main-content section .tabcontent .highlight-builtIn {
+  color: #2054C7;
+}
+
+.main-content section .tabcontent .highlight-title {
   font-weight: 500;
-  color: #1946A5;
+  color: #13347a;
 }
 
 .main-content section .editable {
