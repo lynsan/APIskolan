@@ -330,9 +330,13 @@ body {
 
 .main-content section .tabcontent {
   display: none;
-  padding: 6px 12px;
   background: #E9EDFC;
-  line-height: 22px;
+  line-height: 1.7em;
+}
+
+.main-content section .tabcontent pre {
+  white-space: pre-wrap;
+  padding: 0;
 }
 
 .main-content section .tabcontent .highlight-keyword {

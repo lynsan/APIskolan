@@ -190,10 +190,16 @@ function openCodeExample(evt, programmingLanguage) {
   function updateRecipient(){
       let recipient = document.getElementById("InputRecipient").value
 
-      let recipients = document.getElementsByName("OutputRecipient");
-      recipients.forEach(element => {
-          element.innerText=recipient;
-      });
+      if(!isNaN(recipient)){
+        if(recipient.charAt(0) === '0'){
+            recipient = "46" + recipient.substring(1)
+        }
+        let recipients = document.getElementsByName("OutputRecipient");
+        recipients.forEach(element => {
+            element.innerText=recipient;
+        });
+      }
+
   }
 
   function updateSender(){
@@ -216,19 +222,28 @@ function updateMessage(){
 
 function updateRecipientInput(ev){
     let recipient = ev.innerText
-    document.getElementById("InputRecipient").value = recipient
-    let recipients = document.getElementsByName("OutputRecipient");
-      recipients.forEach(element => {
-        if(element !== ev){
 
-            element.innerText=recipient;
-        }  
-      });
+    if(!isNaN(recipient)){
+        document.getElementById("InputRecipient").value = recipient
+        let recipients = document.getElementsByName("OutputRecipient");
+          recipients.forEach(element => {
+            if(element !== ev){
+    
+                element.innerText=recipient;
+            }  
+          });
+    }
+
 }
 
 function updateSenderInput(ev){
     let sender = ev.innerText
+
+    if(!(sender.length <= 11)){
+        sender = sender.slice(0, 11);
+    }
     document.getElementById("InputSender").value = sender
+    
     let senders = document.getElementsByName("OutputSender");
       senders.forEach(element => {
         if(element !== ev){
