@@ -17,6 +17,10 @@ header {
         position: relative;
         width: 100vw;
         text-align: center;
+        .logga{
+            width: 10em;
+            height: auto;
+        }
     }
 }
 
@@ -98,6 +102,10 @@ header {
     }
     header .logo-container{
         margin-left: 20vw;
+        .logga{
+            width: 11.5em;
+            height: auto;
+        }
     }
 }
 

@@ -34,13 +34,14 @@
                         </ul>
                     </li>
                     <li class="navlist-item"><a class="<?php if($page=='why-use-apis'){echo 'active';} ?>" href="why-use-apis.php">Varför vill man använda ett API?</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='terminology'){echo 'active';} ?>" href="terminology.php">Terminologi</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='quiz'){echo 'active';} ?>" href="test.quiz.php">Quiz</a></li>                           
                 </ul>
             </div>
         </div>
         <div class="logo-container" onclick="hide_menu()">
             <a class="logo" href="index.php">
-                <img src="images/logo.svg" alt="">
+                <img class="logga" src="images/logo_2.svg" alt="">
             </a>
 
         </div>

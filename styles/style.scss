@@ -6,6 +6,10 @@ body {
     font-family: Roboto;
 }
 
+html{
+    overflow-y: scroll;
+}
+
 .main-content{
     padding-top: 50px;
     min-height: calc(100vh - 130px);
@@ -38,6 +42,17 @@ body {
             line-height: 1.6;
             font-family: 'Open Sans', sans-serif;
         }
+        a{
+            color: #242424;
+            text-decoration-color: $detailColor;
+            &:hover{
+                color: $secondaryColor;
+                text-decoration: none;
+            }
+        }
+        b{
+            color: $primaryColor;
+        }
         .callout{
             background-color: $callOutColor;
             padding: 1em;
@@ -56,8 +71,6 @@ body {
         .smallImg{
             max-width: 30%;
         }
-
-
 
         .tab{
             overflow: hidden;
@@ -90,6 +103,9 @@ body {
             pre{
                 white-space: pre-wrap;
                 padding: 0;
+            }
+            code{
+                font-size: 0.7rem;
             }
             .highlight-keyword{
                 font-weight: 500;
