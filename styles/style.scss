@@ -6,6 +6,27 @@ body {
     font-family: Roboto;
 }
 
+html {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 0;
+    border-radius: 0;
+    opacity: 1;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $detailColor;
+    border-radius: 5px;
+    height: 10px;
+}
+
 .main-content{
     padding-top: 50px;
     min-height: calc(100vh - 130px);
@@ -141,7 +162,7 @@ body {
 
 @media screen and (min-width: $largeScreen) {
     .main-content{
-        width: 80vw;
+        width: calc(80vw - 10px);
         float: right;
     }
 
