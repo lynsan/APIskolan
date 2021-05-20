@@ -1,15 +1,17 @@
 function toggleSubmenu(ev){
     let submenu = ev.lastElementChild;
-    //byt håll på pilen här
     toggleDisplayNone(submenu);
 }
 
 function toggleDisplayNone(element){
+    let arrow = document.querySelector('.drop-down');
     if(element.classList.contains('d-none')) {
         element.classList.remove('d-none');
+        arrow.classList.remove('rotate');
     }
     else{
         element.classList.add('d-none');
+        arrow.classList.add('rotate');
     }
 }
 

@@ -25,7 +25,10 @@
                 <ul class="navlist">
                     <li class="navlist-item"><a class="<?php if($page=='open-data'){echo 'active';} ?>" href="open-data.php">Öppna data</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='what-is-apis'){echo 'active';} ?>" href="what-is-apis.php">Vad är ett API?</a></li>
-                    <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Hur använder man ett API<i class="fas fa-angle-down drop-down"></i></a>
+                    <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Hur använder man ett API<i class="fas fa-angle-down drop-down 
+                    <?php 
+                        if($page !='postman-guide' && $page != 'code-examples') echo 'rotate'?>"></i></a>
+                        
                         <ul class="submenu 
                         <?php 
                         if($page !='postman-guide' && $page != 'code-examples') echo 'd-none'?>">
