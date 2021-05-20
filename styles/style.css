@@ -163,6 +163,7 @@ html {
 
 ::-webkit-scrollbar {
   width: 10px;
+  height: 11px;
 }
 
 ::-webkit-scrollbar-track {
@@ -188,6 +189,24 @@ html {
   max-width: 60em;
   margin: auto;
   padding: 2vw 3vw 4vw 3vw;
+  /* form{
+            display: block;
+            font-family: 'Open Sans', sans-serif;
+            
+            input, textarea{
+                font-size: $p;
+                width: 100%;
+                margin-bottom: 15px;
+                margin-top: 5px;
+                padding-left: 5px;
+            }
+            textarea{
+                resize: none;
+                height: 7rem;
+                font-family: inherit;
+            }
+            
+        } */
 }
 
 .main-content section .quiz {
@@ -379,15 +398,18 @@ html {
   background: #E9EDFC;
   line-height: 1.5em;
   letter-spacing: 0.05em;
+  overflow-x: auto;
 }
 
 .main-content section .tabcontent pre {
-  white-space: pre-wrap;
   padding: 0;
+  margin: 0 1em;
+  display: inline-block;
+  margin-top: -3em;
 }
 
 .main-content section .tabcontent code {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .main-content section .tabcontent .highlight-keyword {
@@ -409,6 +431,7 @@ html {
 
 .main-content section .editable {
   outline: none;
+  white-space: pre-wrap;
 }
 
 .main-content section .nav-buttons {

@@ -19,9 +19,9 @@ function</span> <span class="highlight-title">sendSMS</span> ($sms) {
     <span class="highlight-keyword">return</span> $response;
 }
 $sms = <span class="highlight-keyword">array</span>(
-    <span class="highlight-string">"from"</span> => <span class="highlight-string">"<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">PHPElk</code>"</span>,   /* Can be up to 11 alphanumeric characters */
-    <span class="highlight-string">"to"</span> => <span class="highlight-string">"+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766861004</code>"</span>,  /* The mobile number you want to send to */
-    <span class="highlight-string">"message"</span> => <span class="highlight-string">"<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Bring a sweater, it's cold outside!</code>"</span>,
+    <span class="highlight-string">"from"</span> => <span class="highlight-string">"<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">Tshirt</code>"</span>,   /* Can be up to 11 alphanumeric characters */
+    <span class="highlight-string">"to"</span> => <span class="highlight-string">"+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766868334</code>"</span>,  /* The mobile number you want to send to */
+    <span class="highlight-string">"message"</span> => <span class="highlight-string">"<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Jag testar APIskolan och skulle gärna vilja ha en kurvig T-shirt i storlek L, tack!</code>"</span>,
 );
 <span class="highlight-keyword">
 echo</span> sendSMS($sms);
