@@ -13,12 +13,14 @@
             <br>
             <p><b>HTTP Statuskoder -</b> När din webbläsare skickar en förfrågan till en webbserver så får du tillbaka ett svar, som alltid innehåller en statuskod. Detta är för att indikera hur din förfrågan har gått. Exempelvis så kan du få statuskoden “200 OK” som visar på att allt har gått bra, eller så kanske du får svaret “404 Not Found” som säger att webbplatsen inte hittades. Det finns många olika statuskoder, och här kan du läsa mer om vilka koder som finns. <a href="https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_HTTP-statuskoder">Läs mer om HTTP-statuskoder från Wikipedia</a>.</p>   
             <h3>HTTP Metoder</h3>
+            <br>
             <p><b>GET -</b> När du vill till exempel be om en viss fil eller bild från internet så använder din webbläsare denna metod, vilket är det vanligaste HTTP-kommandot.</p>
             <br>
             <p><b>POST -</b> Din webbläsare använder denna metod om du vill du skicka eller ladda upp en information på internet.</p>
             <br>
             <p><b>DELETE -</b> Har du ångrat dig och vill ta bort den informationen som du har laddat upp så tar din webbläsare hjälp av den här metoden.</p>
             <h3>Authentication</h3>
+            <br>
             <p><b>Credentials -</b> Vissa som tillhandahåller API:er vill ha lite bättre koll på vilka som använder deras API, av olika anledningar. Det gör att man ibland behöver skapa ett konto för att använda tjänsten. Exempelvis så skapar man ett konto hos 46elks, för att kunna använda deras API. När man väl har sitt konto hos dom får man ett användarnamn och lösenord till själva API:et. Detta är dina credentials, som du behöver för att kunna använda API:et. Det kan beskrivas som din unika identifikation, så att 46elks kan få bättre kontroll över vem som använder deras tjänst.</p>
             <br>
             <p><b>API keys -</b> Vissa använder så kallade API keys för att kontrollera användningen av API:et. Då använder man inte ett användarnamn och lösenord för att autentisera sig, utan man använder en enda nyckel.</p>

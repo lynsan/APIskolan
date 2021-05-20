@@ -38,8 +38,10 @@ html {
         h1{
             color: $secondaryColor;
             font-size: $h1;
-            line-height: 2;
+            line-height: 1.2;
             font-weight: 500;
+            padding-top: 0.7em;
+            padding-bottom: 0.5em;
         }
         h2{
             color: $primaryColor;
@@ -51,7 +53,7 @@ html {
             color: $primaryColor;
             font-size: $h3;
             font-weight:500;
-            line-height: 2;
+            line-height: 1;
             margin-top: 30px;
         }
         p{
