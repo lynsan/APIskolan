@@ -7,7 +7,7 @@
 
         
         <form action="">
-            <label for="InputRecipient">Mottagare</label> 
+            <label id="recipient" for="InputRecipient">Mottagare</label> 
             <input name="InputRecipitent" type="text" id="InputRecipient" oninput="updateRecipient()" value="0766868334">
 
             <label for="InputSender">Avsändare</label>
