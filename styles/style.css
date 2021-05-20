@@ -103,6 +103,15 @@ header .logo-container .logga {
   color: white;
   font-size: 1.5rem;
   margin: 0 3% 0 3%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.menu-container .navlist .navlist-item a .rotate {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .menu-container .navlist .navlist-item .submenu {
