@@ -5,9 +5,18 @@
 <div class="main-content" onclick="hideMenu()">
     <section>
 
-        Mottagare: <input type="text" id="InputRecipient" oninput="updateRecipient()">
-        Avsändare: <input type="text" id="InputSender" oninput="updateSender()" maxlength="11">
-        Meddelande: <input type="text" id="InputMessage" oninput="updateMessage()">
+        
+        <form action="">
+            <label for="InputRecipient">Mottagare</label> 
+            <input name="InputRecipitent" type="text" id="InputRecipient" oninput="updateRecipient()" value="0766868334">
+
+            <label for="InputSender">Avsändare</label>
+            <input name="InputSender" type="text" id="InputSender" oninput="updateSender()" maxlength="11" value="Tshirt">
+
+            <label for="InputMessage">Meddelande</label>
+            <textarea name="InputMessage" id="InputMessage" cols="30" rows="10" oninput="updateMessage()">Jag testar APIskolan och skulle gärna vilja ha en kurvig T-shirt i storlek L, tack!</textarea>
+        </form>
+
 
 
         <div class="tab">

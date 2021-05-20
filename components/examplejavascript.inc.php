@@ -5,9 +5,9 @@ const</span> https = <span class="highlight-builtIn">require</span>(<span class=
 <span class="highlight-keyword">const</span> username = <span class="highlight-string">'API-username'</span>
 <span class="highlight-keyword">const</span> password = <span class="highlight-string">'API-password'</span>
 <span class="highlight-keyword">const</span> postFields = {
-    from:    <span class="highlight-string">"<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">NodeElk</code>"</span>,
-    to:      <span class="highlight-string">"+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766861004</code>"</span>,
-    message: <span class="highlight-string">"<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Bring a sweater, it's cold outside!</code>"</span>
+    from:    <span class="highlight-string">"<code contenteditable="true" name="OutputSender" class="editable" oninput="updateSenderInput(this)">Tshirt</code>"</span>,
+    to:      <span class="highlight-string">"+<code contenteditable="true" name="OutputRecipient" class="editable" oninput="updateRecipientInput(this)">46766868334</code>"</span>,
+    message: <span class="highlight-string">"<code contenteditable="true" name="OutputMessage" class="editable" oninput="updateMessageInput(this)">Jag testar APIskolan och skulle gärna vilja ha en kurvig T-shirt i storlek L, tack!</code>"</span>
 }
 
 <span class="highlight-keyword">const</span> key = Buffer.from(username + ':' + password).toString(<span class="highlight-string">"base64"</span>);
