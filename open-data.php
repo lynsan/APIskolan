@@ -2,6 +2,7 @@
 
     <div class="main-content" onclick="hideMenu()">
         <section>
+        <div class="text">
             <h1>Öppna data</h1>
             <p>Innan vi går in på vad ett API är, kan det vara bra att veta vad öppna data är, då API:er och öppna data är begrepp som många gånger går hand i hand. Så vad är då öppna data?</p>
             <br>
@@ -11,7 +12,8 @@
             <div class="callout">
                 <p>Genom att använda API:er kan man ta del av öppna data för att dra nytta av viktig information, vilket ger en ökad kunskap om samhället och offentliga organisationer. Dessutom skapar det möjligheten att utveckla innovativa tjänster och produkter.</p>
             </div>
-            <p>Men hur funkar då API:er? I nästa kapitel så beskriver vi närmare om vad ett API är och hur det fungerar.</p>
+            <p>I nästa kapitel så beskriver vi närmare om vad ett API är och hur det fungerar.</p>
+        </div>
             <div class="nav-buttons">
                 <button type="button" onclick="location.href='index.php';">Föregående</button>
                 <button type="button" onclick="location.href='what-is-apis.php';">Nästa</button>

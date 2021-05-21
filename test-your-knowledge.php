@@ -1,10 +1,11 @@
-<?php $page = 'quiz';require('components/header.inc.php')?>
+<?php $page = 'test-your-knowledge';require('components/header.inc.php')?>
 
     <div class="main-content" onclick="hideMenu()">
         <section>
-            <h1>Quiz om API </h1>           
-            <p>Quizet är bara ett roligt sätt att testa hur mycket du kan om API.</p>
-            <p>Det finns därför ingen tidsgräns för att göra quizet.</p><br>
+            <div class="text">
+                <h1>Testa dina kunskaper om API:er</h1>           
+                <p>Testet är bara ett roligt sätt för dig att se hur mycket du kan om API:er och hur mycket du har lärt dig av APIskolan. Det finns därför ingen tidsgräns för att göra testet och du kan göra om det hur många gånger du vill.</p><br>
+            </div>
 
             <?php 
             include('components/quiz.inc.php');
@@ -22,6 +23,9 @@
             $quiz = GenerateQuiz($allQuestions);
             ?>
 
+            <div class="nav-buttons">
+                <button type="button" onclick="location.href='code-examples.php';">Föregående</button>
+            </div>
         </section>
     </div>
 

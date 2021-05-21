@@ -123,11 +123,11 @@ header .logo-container .logga {
     display: none;
   }
   .menu-container {
-    width: 20vw;
+    width: 24vw;
     border-right: 7px solid #BC5757;
   }
   header .logo-container {
-    margin-left: 20vw;
+    margin-left: 24vw;
   }
   header .logo-container .logga {
     width: 11.5em;
@@ -224,7 +224,7 @@ html {
   border: #05463A 3px solid;
   border-radius: 15px;
   max-width: 30em;
-  margin: 0 auto 2% auto;
+  margin: 2em auto 2em auto;
   -webkit-box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.42);
           box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.42);
   -webkit-transition: border 100ms ease;
@@ -337,6 +337,11 @@ html {
   font-size: 1.1rem;
   line-height: 1.6;
   font-family: 'Open Sans', sans-serif;
+}
+
+.main-content section .text {
+  max-width: 75ch;
+  margin: auto;
 }
 
 .main-content section a {
@@ -500,7 +505,8 @@ html {
 
 .exampleImg {
   width: 100%;
-  margin: 2vw 0;
+  margin: 2vw auto;
+  display: block;
 }
 
 @media screen and (min-width: 1200px) {
@@ -556,6 +562,12 @@ html {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
             order: 6;
+  }
+  .main-content .exampleImg {
+    width: 80%;
+  }
+  .main-content section .horizontal {
+    max-width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -56,7 +56,7 @@ function hideMenu(){
 window.onresize = function(){
     let menu = document.querySelector('.menu-container');
     if(window.innerWidth >= 1200){
-        menu.style.width = '20vw';
+        menu.style.width = '24vw';
         menu.style.borderRight = "7px solid #BC5757";
         document.querySelector(".close-icon").style.visibility = "hidden";
     }

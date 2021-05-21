@@ -25,7 +25,7 @@ function GenerateQuiz($allQuestions){
             echo '<button class="next" onclick="nextQuestion()">Nästa<i class="fas fa-chevron-right next-icon"></i></button>';
         }
         else{
-            echo '<button class="next" onclick="resetQuiz()">Försök igen<i class="fas fa-sync-alt next-icon"></i></button>';
+            echo '<button class="next" onclick="resetQuiz()">Gör om test <i class="fas fa-sync-alt next-icon"></i></button>';
         }
 
         echo '</div>';

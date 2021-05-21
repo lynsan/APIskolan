@@ -62,6 +62,10 @@ html {
             line-height: 1.6;
             font-family: 'Open Sans', sans-serif;
         }
+        .text{
+            max-width: 75ch;
+            margin: auto;
+        }
         a{
             color: $primaryColor;
             text-decoration-color: $detailColor;
@@ -223,7 +227,8 @@ html {
 
 .exampleImg{
     width: 100%;
-    margin: 2vw 0;
+    margin: 2vw auto;
+    display: block;
 }
 
 
@@ -242,6 +247,12 @@ html {
             & > :nth-child(5){ order: 5;}
             & > :nth-child(6){ order: 6;}
 
+        }
+        .exampleImg{
+            width: 80%;
+        }
+        section .horizontal{
+            max-width: 80%;
         }
     }
 

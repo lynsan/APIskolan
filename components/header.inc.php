@@ -25,20 +25,13 @@
                 <ul class="navlist">
                     <li class="navlist-item"><a class="<?php if($page=='open-data'){echo 'active';} ?>" href="open-data.php">Öppna data</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='what-is-apis'){echo 'active';} ?>" href="what-is-apis.php">Vad är ett API?</a></li>
-                    <li class="navlist-item" onclick="toggleSubmenu(this)"><a href="#">Hur använder man ett API<i class="fas fa-angle-down drop-down 
-                    <?php 
-                        if($page !='postman-guide' && $page != 'code-examples') echo 'rotate'?>"></i></a>
-                        
-                        <ul class="submenu 
-                        <?php 
-                        if($page !='postman-guide' && $page != 'code-examples') echo 'd-none'?>">
-                            <li><a class="<?php if($page=='postman-guide'){echo 'active';} ?>" href="postman-guide.php">API i Postman</a></li>
-                            <li><a class="<?php if($page=='code-examples'){echo 'active';} ?>" href="code-examples.php">Kodexempel</a></li>
-                        </ul>
-                    </li>
                     <li class="navlist-item"><a class="<?php if($page=='why-use-apis'){echo 'active';} ?>" href="why-use-apis.php">Varför vill man använda ett API?</a></li>
+                    
+                    <li class="navlist-item"><a class="<?php if($page=='postman-guide'){echo 'active';} ?>" href="postman-guide.php">API i Postman</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='code-examples'){echo 'active';} ?>" href="code-examples.php">Kodexempel</a></li>
+
                     <li class="navlist-item"><a class="<?php if($page=='terminology'){echo 'active';} ?>" href="terminology.php">Terminologi</a></li>
-                    <li class="navlist-item"><a class="<?php if($page=='quiz'){echo 'active';} ?>" href="test.quiz.php">Quiz</a></li>                           
+                    <li class="navlist-item"><a class="<?php if($page=='test-your-knowledge'){echo 'active';} ?>" href="test-your-knowledge.php">Testa dina kunskaper</a></li>                           
                 </ul>
             </div>
         </div>
