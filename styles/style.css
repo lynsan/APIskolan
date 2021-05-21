@@ -136,7 +136,9 @@ header .logo-container .logga {
 }
 
 footer {
-  height: 100%;
+  width: 100%;
+  height: 80px;
+  background-color: #fbfafd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,9 +152,6 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
-  height: 80px;
-  background-color: #fbfafd;
 }
 
 @media screen and (min-width: 1200px) {
@@ -198,24 +197,6 @@ html {
   max-width: 60em;
   margin: auto;
   padding: 2vw 3vw 4vw 3vw;
-  /* form{
-            display: block;
-            font-family: 'Open Sans', sans-serif;
-            
-            input, textarea{
-                font-size: $p;
-                width: 100%;
-                margin-bottom: 15px;
-                margin-top: 5px;
-                padding-left: 5px;
-            }
-            textarea{
-                resize: none;
-                height: 7rem;
-                font-family: inherit;
-            }
-            
-        } */
 }
 
 .main-content section .quiz {
@@ -229,12 +210,14 @@ html {
           box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.42);
   -webkit-transition: border 100ms ease;
   transition: border 100ms ease;
+  position: relative;
 }
 
 .main-content section .question-box {
   visibility: hidden;
   position: absolute;
   opacity: 0;
+  top: 0;
   -webkit-transition: opacity 300ms ease-in;
   transition: opacity 300ms ease-in;
   text-align: center;
@@ -500,7 +483,7 @@ html {
 .main-content section .nav-buttons button:hover {
   background-color: #2D2D2D;
   color: #BC5757;
-  border: none;
+  border: #2D2D2D 2px solid;
 }
 
 .exampleImg {

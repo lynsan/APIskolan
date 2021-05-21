@@ -12,7 +12,7 @@
 
             /* The first answer in the array will be the correct one */
             $allQuestions = array(
-                new Question("Vad är API förkortning för?", array("Application Program Interface", "Application Period Interface", "Application Program Internet")),
+                new Question("Vad är API förkortning för?", array("Application Program Interface", "Application Period Interface", "Application Program Internet", "Application Program Internet")),
                 new Question("Det här är nästa fråga", array("rätt svar", "ett annat svar", "fel svar", "ytterligare ett fel svar")),
                 new Question("Vem är jkag?", array("Pilvi", "Lyn", "Pilyn", "Lynpi")),
                 new Question("Hur svårt är det här?", array("Så enkelt!", "såsvårfrågaherregud", "Det här kan jag nog", "förvirring")),

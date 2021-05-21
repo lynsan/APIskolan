@@ -180,26 +180,6 @@ html {
             
         } 
         
-        /* form{
-            display: block;
-            font-family: 'Open Sans', sans-serif;
-            
-            input, textarea{
-                font-size: $p;
-                width: 100%;
-                margin-bottom: 15px;
-                margin-top: 5px;
-                padding-left: 5px;
-            }
-            textarea{
-                resize: none;
-                height: 7rem;
-                font-family: inherit;
-            }
-            
-        } */
-        
-
         .nav-buttons{
             display: flex;
             button{
@@ -217,7 +197,7 @@ html {
                 &:hover{
                     background-color: $primaryColor;
                     color: $secondaryColor;
-                    border: none;
+                    border: $primaryColor 2px solid;
                 }
             }
         }

@@ -19,7 +19,7 @@ function toggleMenu(){
     let medium = window.matchMedia("(min-width: 768px)");
     
     if(medium.matches){
-        changeMenuWidth("40vw");
+        changeMenuWidth("50vw");
     }
     else{
         changeMenuWidth("75vw");
