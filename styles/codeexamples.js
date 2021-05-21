@@ -28,6 +28,10 @@ function openCodeExample(evt, programmingLanguage) {
 
   function updateRecipient(){
       let recipient = document.getElementById("InputRecipient").value
+      
+      if(recipient.length === 0){
+        recipient = "46766868334";
+      }
 
       if(!isNaN(recipient)){
         if(recipient.charAt(0) === '0'){
@@ -38,11 +42,15 @@ function openCodeExample(evt, programmingLanguage) {
             element.innerText=recipient;
         });
       }
-
+      
   }
 
   function updateSender(){
     let sender = document.getElementById("InputSender").value
+
+    if(sender.length === 0){
+      sender = "Tshirt";
+    }
 
     let senders = document.getElementsByName("OutputSender");
     senders.forEach(element => {
@@ -52,6 +60,10 @@ function openCodeExample(evt, programmingLanguage) {
 
 function updateMessage(){
     let message = document.getElementById("InputMessage").value
+
+    if(message.length === 0){
+      message = "Jag testar APIskolan och skulle gärna vilja ha en kurvig T-shirt i storlek L, tack!";
+    }
 
     let messages = document.getElementsByName("OutputMessage");
     messages.forEach(element => {
