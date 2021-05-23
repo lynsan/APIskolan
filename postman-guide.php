@@ -28,13 +28,13 @@
                 <h3>Testa en URL i Postman</h3>
                 <br>
                 <p>Innan vi testar ett riktigt API, ska vi börja med att anropa en webbplats. Vi börjar med att hämta URL:en från svts webbplats.</p>
-                <p class="callout">💡 En URL är adressen till en webbplats, som är i detta fall <b>https://www.svt.se/</b>.</p>
+                <p class="callout">💡 En <a href="terminology.php">URL</a> är adressen till en webbplats, som är i detta fall <b>https://www.svt.se/</b>.</p>
                 <br>
                 <p>1. Skriv svts URL i rutan där det står “Enter request URL”. Såhär ska det se ut i POSTMAN:</p>
             </div>
             <img class="postman-guide-img horizontal smallImg" src="images/04-svt-url.jpg" alt="Svt URL">
             <div class="text">
-                <p class="callout">💡 Bredvid URL:en står det “GET”. GET är en metod som tillåter dig att göra en förfrågan för att hämta data.</p>
+                <p class="callout">💡 Bredvid URL:en står det “GET”. <a href="terminology.php">GET</a> är en metod som tillåter dig att göra en förfrågan för att hämta data.</p>
                 <br>
                 <p>2. Klicka på den blåa knappen “Send”.</p>
             </div>
@@ -44,9 +44,7 @@
             </div>
             <img class="postman-guide-img horizontal" src="images/06-svt-url-result.jpg" alt="Svt URL Result">
             <div class="text">
-                <p>3. Öppna en webbläsare och besök <a href="https://www.svt.se/" target="_blank" >https://www.svt.se/</a>.</p>
-                <br>
-                <p>4. Högerklicka och välj “View page source”, “Visa sidans källa” eller något i den stilen.</p>
+                <p>3. Besök <a href="https://www.svt.se/" target="_blank" >https://www.svt.se/</a>. Därefter högerklicka i webbläsaren och välj “View page source”, “Visa sidans källa” eller något i den stilen.</p>
                 <br>
                 <p>Du kan se att din webbläsare visar samma svar som du fick i Postman. Webbläsare får alltså samma svar, som den i sin tur tolkar, och visar ute på internet. Det är samma sak med många API:er, många av de finns ute på internet, du behöver dock veta deras URL för att kunna kommunicera med dem.</p>
                 <!-- Guide för att testa ett riktigt API i Postman -->
@@ -70,15 +68,15 @@
             <div class="text">
                 <p>Detta innebär att du måste autentisera dig. Du behöver alltså en nyckel för att komma åt API:et.</p>
                 <br>
-                <p class="callout">💡 För att kunna autentisera dig behöver du skapa ett konto hos 46elks. När du skapar ett konto får du ett API användarnamn och lösenord som du kan använda för att autentisera dig, dessa kallas också ibland för “API-nycklar”.</p>
+                <p class="callout">💡 För att kunna autentisera dig behöver du skapa ett konto hos 46elks. När du skapar ett konto får du ett API användarnamn och lösenord som du kan använda för att autentisera dig, dessa kallas också ibland för “<a href="terminology.php">API-keys</a>”.</p>
                 <br>
-                <p>3. Skapa ett konto hos 46elks för att få ett användarnamn och lösenord till API:et. Du behöver ha din telefon nära till hands då du kommer att få ett telefonsamtal för att bekräfta att du är en människa och inte robot.</p>
+                <p>3. Skapa ett konto hos <a href="https://46elks.se/register" target="_blank">46elks</a> för att få ett användarnamn och lösenord till API:et. Du behöver ha din telefon nära till hands då du kommer att få ett telefonsamtal för att bekräfta att du är en människa och inte robot.</p>
                 <br>
                 <p>Nu när du har skapat ditt konto och loggat in hos 46elks så kan du i deras webbplats hitta ditt API användarnamn (username) och lösenord (password) under “API Credentials”.</p>
             </div>
             <img class="postman-guide-img horizontal" src="images/10-46elks-api-credentials.jpg" alt="API Credentials">
             <div class="text">
-                <p>4. Gå tillbaka till Postman för att autentisera dig. Det gör du under “Authorization” där du ändrar vad som står i type-rutan till “Basic Auth”.</p>
+                <p>4. Gå tillbaka till Postman för att autentisera dig. Det gör du under “Authorization” eller "Auth" där du ändrar vad som står i type-rutan till “Basic Auth”.</p>
             </div>
             <img class="postman-guide-img" src="images/11-46elks-change-to-basic-auth.jpg" alt="Basic Auth">
             <div class="text">
@@ -100,7 +98,7 @@
             </div>
             <img class="postman-guide-img" src="images/14-46elks-get-to-post.jpg" alt="Change To Post">
             <div class="text">
-                <p class="callout">💡 POST är precis som GET också en metod, men det används när du vill skicka med data.</p>
+                <p class="callout">💡 <a href="terminology.php">POST</a> är precis som <a href="terminology.php">GET</a> också en metod, men det används när du vill skicka med data.</p>
                 <br>
                 <p>2. Lägg till <b>sms</b> i slutet av din url. URL:en borde nu se ut såhär: <b>https://api.46elks.com/a1/sms</b>.</p>
                 <br>
