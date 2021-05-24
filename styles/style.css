@@ -14,6 +14,7 @@ header {
   background: white;
   padding-top: 0.5em;
   z-index: 100;
+  height: 4em;
 }
 
 header .logo-container {
@@ -65,23 +66,15 @@ header .logo-container .logga {
   padding-top: 50px;
 }
 
-.menu-container .navlist .navlist-item .active {
-  display: inline-block;
-}
-
 .menu-container .navlist .navlist-item .active::after {
-  content: '';
-  height: 5px;
   background: #BC5757;
-  border-radius: 5px;
-  display: block;
+  opacity: 1;
 }
 
 .menu-container .navlist .navlist-item a {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  /* Used to be display:flex, flex needed for submeny. Fix this!*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -90,8 +83,8 @@ header .logo-container .logga {
   font-size: 1.2rem;
   border-radius: 5px;
   text-decoration: none;
-  margin: 3%;
-  padding: 2%;
+  margin: 2%;
+  padding: 2% 6%;
 }
 
 .menu-container .navlist .navlist-item a:hover,
@@ -112,6 +105,15 @@ header .logo-container .logga {
 .menu-container .navlist .navlist-item a .rotate {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
+}
+
+.menu-container .navlist .navlist-item a::after {
+  content: '';
+  height: 5px;
+  background: #2D2D2D;
+  border-radius: 5px;
+  display: block;
+  opacity: 0;
 }
 
 .menu-container .navlist .navlist-item .submenu {
@@ -279,7 +281,7 @@ html {
 }
 
 .main-content section .question-box .next .next-icon {
-  padding-left: .3rem;
+  padding-left: .3em;
 }
 
 .main-content section .active-question {
@@ -470,7 +472,7 @@ html {
   background: white;
   color: black;
   min-height: 44px;
-  width: 120px;
+  width: 140px;
   border: #05463A 2px solid;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
@@ -484,6 +486,14 @@ html {
   background-color: #2D2D2D;
   color: #BC5757;
   border: #2D2D2D 2px solid;
+}
+
+.main-content section .nav-buttons button .previousChapter-icon {
+  padding-right: .3em;
+}
+
+.main-content section .nav-buttons button .nextChapter-icon {
+  padding-left: .3em;
 }
 
 .exampleImg {

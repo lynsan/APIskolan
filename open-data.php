@@ -15,8 +15,8 @@
             <p>I nästa kapitel så beskriver vi närmare om vad ett API är och hur det fungerar.</p>
         </div>
             <div class="nav-buttons">
-                <button type="button" onclick="location.href='index.php';">Föregående</button>
-                <button type="button" onclick="location.href='what-is-apis.php';">Nästa</button>
+                <button type="button" onclick="location.href='index.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
+                <button type="button" onclick="location.href='what-is-apis.php';">Nästa<i class="fas fa-chevron-right nextChapter-icon"></i></button>
             </div>
         </section>
     </div>

@@ -12,19 +12,20 @@
 
             /* The first answer in the array will be the correct one */
             $allQuestions = array(
-                new Question("Vad är API förkortning för?", array("Application Program Interface", "Application Period Interface", "Application Program Internet", "Application Program Internet")),
-                new Question("Det här är nästa fråga", array("rätt svar", "ett annat svar", "fel svar", "ytterligare ett fel svar")),
-                new Question("Vem är jkag?", array("Pilvi", "Lyn", "Pilyn", "Lynpi")),
-                new Question("Hur svårt är det här?", array("Så enkelt!", "såsvårfrågaherregud", "Det här kan jag nog", "förvirring")),
-                new Question("Hur mycket väger ett kilo fjädrar?", array("1000 gram", "1 ton", "100 gram", "5 hekto")),
-                new Question("Har jag en nästa knapp?", array("svar NEJ", "Ja, tyvärr", "hela sidan gick sönder", "jag vill inte svara")),
+                new Question("Vad är API förkortning för?", array("Application Program Interface", "Application Period Interface", "Application Program Internet", "Application Program Intelligence")),
+                new Question("Man kan ta del av öppna data med hjälp av API:er.", array("Sant", "Falsk")),
+                new Question("Alla API:er är alltid öppna.", array("Falsk", "Sant")),
+                new Question("Vilken alternativ är INTE en HTTP Metod?", array("Call", "Get", "Post", "Delete")),
+                new Question("Man behöver inte alltid autentisera sig när man använder ett API.", array("Sant", "Falsk")),
+                new Question("Svaren som man får när man använder ett API kommer alltid i formatet JSON.", array("Falsk", "Sant")),
+                new Question("Vilken alternativ är sant?", array("Ett API fungerar som en bro mellan olika program och gör att de kan kommunicera med varandra på ett enkelt sätt.", "Ett API är ett enkelt sätt att hämta data fritt från alla företag.", "Ett API är ett verktyg för versionshantering av kod.", "Ett API fungerar som en protokoll för att få datorer att efterlikna människans naturliga intelligens.")),
             );
             
             $quiz = GenerateQuiz($allQuestions);
             ?>
 
             <div class="nav-buttons">
-                <button type="button" onclick="location.href='code-examples.php';">Föregående</button>
+                <button type="button" onclick="location.href='code-examples.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
             </div>
         </section>
     </div>

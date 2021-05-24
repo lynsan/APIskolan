@@ -186,7 +186,7 @@ html {
                 background: white;
                 color: black;
                 min-height: 44px;
-                width: 120px;
+                width: 140px;
                 border: $detailColor 2px solid;
                 font-family: 'Roboto', sans-serif;
                 padding: 10px;
@@ -198,6 +198,12 @@ html {
                     background-color: $primaryColor;
                     color: $secondaryColor;
                     border: $primaryColor 2px solid;
+                }
+                .previousChapter-icon{
+                    padding-right: .3em;
+                }
+                .nextChapter-icon{
+                    padding-left: .3em;
                 }
             }
         }

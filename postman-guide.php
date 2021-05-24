@@ -115,8 +115,8 @@
                 <p>5. Klicka på “Send”. Nu har du kommunicerat med ett riktigt API! I nästa kapitel får du se exempel på hur koden kan se ut när man anropar ett API.</p>
             </div>
             <div class="nav-buttons">
-                <button type="button" onclick="location.href='why-use-apis.php';">Föregående</button>
-                <button type="button" onclick="location.href='code-examples.php';">Nästa</button>
+                <button type="button" onclick="location.href='why-use-apis.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
+                <button type="button" onclick="location.href='code-examples.php';">Nästa<i class="fas fa-chevron-right nextChapter-icon"></i></button>
             </div>
         </section>
     </div>
