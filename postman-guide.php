@@ -5,7 +5,7 @@
             <div class="text">
 
                 <h1>API i Postman</h1>
-                <p>Nu ska vi lära oss om hur man faktiskt använder ett API! Postman är en mjukvara som du kan använda för att testa API:er, vilket är ett bra verktyg att använda när du lär dig om API:er. I den här guiden visar vi hur man kan anropa en webbplats, och även hur man kan anropa ett riktigt API. När du ser denna ikon 💡 så indikerar det information.</p>
+                <p>Nu ska vi lära oss om hur man faktiskt använder ett API! Postman är en mjukvara som du kan använda för att testa API:er, vilket är ett bra verktyg att använda när du lär dig om API:er. I den här guiden visar vi hur man kan anropa en webbplats, och även hur man kan anropa ett riktigt API. När du ser denna ikon 💡 så indikerar det information. Du kan bocka av det steget som du gjort för att lättare se var du befinner dig i guiden.</p>
                 <br>
                 <!-- Guide för att installera och öppna Postman -->
                 <h3>Installera Postman</h3>
