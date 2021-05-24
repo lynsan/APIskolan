@@ -207,6 +207,7 @@ html {
   border: #05463A 3px solid;
   border-radius: 15px;
   max-width: 30em;
+  min-height: 400px;
   margin: 2em auto 2em auto;
   -webkit-box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.42);
           box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.42);
@@ -216,6 +217,7 @@ html {
 }
 
 .main-content section .question-box {
+  min-height: inherit;
   visibility: hidden;
   position: absolute;
   opacity: 0;
@@ -225,12 +227,33 @@ html {
   text-align: center;
 }
 
-.main-content section .question-box .question {
-  font-size: 1.5rem;
-  margin: 4%;
+.main-content section .question-box .question-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.main-content section .question-box .button-box .alternative {
+.main-content section .question-box .counter {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+}
+
+.main-content section .question-box .question {
+  font-size: 1.5rem;
+  margin: 10% 40px 2% 40px;
+  width: 100%;
+}
+
+.main-content section .question-box .button-box {
+  min-height: 220px;
+}
+
+.main-content section .question-box .button-box button:last-child {
+  margin-bottom: 55px;
+}
+
+.main-content section .question-box .alternative {
   width: 90%;
   margin: 1%;
   padding: 1.5%;
@@ -238,7 +261,6 @@ html {
   background-color: white;
   border-radius: 6px;
   border: #2D2D2D 1px solid;
-  /*<------ Fix this color*/
   text-align: start;
   font-family: Open Sans;
   font-size: 1.1rem;
@@ -248,12 +270,12 @@ html {
   transition: background 100ms ease;
 }
 
-.main-content section .question-box .button-box .hover:hover {
+.main-content section .question-box .hover:hover {
   color: #BC5757;
   cursor: pointer;
 }
 
-.main-content section .question-box .button-box .icon {
+.main-content section .question-box .icon {
   visibility: hidden;
   position: absolute;
   right: 3%;
@@ -262,19 +284,23 @@ html {
   font-size: 1.5rem;
 }
 
-.main-content section .question-box .button-box .check {
+.main-content section .question-box .check {
   color: #05463A;
 }
 
-.main-content section .question-box .next {
+.main-content section .next {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  right: 0;
+  margin: auto;
   border: none;
   color: black;
   font-size: 1.1rem;
   background-color: white;
-  margin: 3%;
 }
 
-.main-content section .question-box .next:hover {
+.main-content section .next:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   cursor: pointer;
@@ -352,6 +378,7 @@ html {
 }
 
 .main-content section .postman-guide-img {
+  opacity: 1;
   max-width: 90%;
   display: block;
   margin: 4vw auto;
@@ -505,6 +532,51 @@ html {
 .homepageImg {
   width: 100%;
   margin: 2vw auto;
+}
+
+input[type="checkbox"] {
+  margin-right: 1em;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #05463A;
+  border-radius: 4px;
+  outline: none;
+  background-color: white;
+  margin-bottom: -3px;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '\2713';
+  color: #028325;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: -2px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] + p {
+  display: inline;
+}
+
+input[type="checkbox"]:checked {
+  border: 1px solid #028325;
+  background-color: white;
+}
+
+input[type="checkbox"]:checked + p, input[type="checkbox"]:checked + p a {
+  text-decoration: line-through;
+  color: #a0a0a0;
+}
+
+input[type="checkbox"]:checked + p a:hover {
+  color: #BC5757;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1200px) {

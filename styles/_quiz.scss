@@ -5,6 +5,7 @@
     border: $detailColor 3px solid;
     border-radius: 15px;
     max-width: 30em;
+    min-height: 400px;
     margin: 2em auto 2em auto;
     box-shadow: 3px 7px 10px rgba($color: #000000, $alpha: .42);
     transition: border 100ms ease;
@@ -12,18 +13,32 @@
 }
 
 .question-box{
+    min-height: inherit;
     visibility: hidden;
     position: absolute;
     opacity: 0;
     top: 0;
     transition: opacity 300ms ease-in;
     text-align: center;
+    .question-row{
+        display: flex;
+    }
+    .counter{
+        position: absolute;
+        top: 2px;
+        right: 10px;
+    }
     .question{
         font-size: $h3;
-        margin: 4%;
+        margin: 10% 40px 2% 40px;
+        width: 100%;
     }
     .button-box{
-
+        min-height: 220px;
+        button:last-child{
+            margin-bottom: 55px;
+        }
+    }
         .alternative{
             width: 90%;
             margin: 1%;
@@ -31,7 +46,7 @@
             padding-left: 3%;
             background-color: white;
             border-radius: 6px;
-            border: $primaryColor 1px solid; /*<------ Fix this color*/
+            border: $primaryColor 1px solid;
             text-align: start;
             font-family: Open Sans;
             font-size: $p;
@@ -57,11 +72,16 @@
         }
     }
     .next{
+        position: absolute;
+        bottom: 3%;
+        left: 0;
+        right: 0;
+        margin: auto;
         border: none;
         color: black;
         font-size: $p;
         background-color: white;
-        margin: 3%;
+        //margin: 3%;
         &:hover{
             text-decoration: underline;
             text-decoration-thickness: 3px;
@@ -71,7 +91,7 @@
             padding-left: .3em;
         }
     }
-}
+
 .active-question{
     position: inherit;
     visibility: visible;

@@ -84,6 +84,7 @@ html {
             max-width: 55em;
         }
         .postman-guide-img{
+            opacity: 1;
             max-width: 90%;
             display: block;
             margin: 4vw auto;
@@ -221,6 +222,54 @@ html {
     width: 100%;
     margin: 2vw auto;
 }
+
+
+
+input[type="checkbox"]{
+    margin-right: 1em;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid $detailColor;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: -3px;
+}
+
+input[type="checkbox"]:checked::after{
+    content: '\2713';
+    color: #028325;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: -2px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] + p{
+    display: inline;
+}
+
+input[type="checkbox"]:checked{
+    border: 1px solid #028325;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="checkbox"]:checked + p, input[type="checkbox"]:checked + p a{
+    text-decoration: line-through;
+    color: #a0a0a0;
+}
+
+input[type="checkbox"]:checked + p a:hover{
+    color: $secondaryColor;
+    text-decoration: none;
+}
+
 
 
 @media screen and (min-width: $largeScreen) {
