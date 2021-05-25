@@ -306,7 +306,7 @@ html {
   cursor: pointer;
 }
 
-.main-content section .question-box .next .next-icon {
+.main-content section .next .next-icon {
   padding-left: .3em;
 }
 
@@ -333,7 +333,7 @@ html {
   color: #2D2D2D;
   font-size: 1.7rem;
   line-height: 2;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .main-content section h3 {
@@ -341,7 +341,7 @@ html {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1;
-  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
 .main-content section p {
@@ -579,9 +579,16 @@ input[type="checkbox"]:checked + p a:hover {
   text-decoration: none;
 }
 
+iframe {
+  margin-bottom: 4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media screen and (min-width: 1200px) {
   .main-content {
-    width: calc(80vw - 10px);
+    width: calc(76vw - 10px);
     float: right;
   }
   .main-content section form {

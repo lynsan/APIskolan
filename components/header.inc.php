@@ -32,6 +32,7 @@
 
                     <li class="navlist-item"><a class="<?php if($page=='terminology'){echo 'active';} ?>" href="terminology.php">6. Terminologi</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='test-your-knowledge'){echo 'active';} ?>" href="test-your-knowledge.php">7. Testa dina kunskaper</a></li>                           
+                    <li class="navlist-item"><a class="<?php if($page=='resources'){echo 'active';} ?>" href="resources.php">8. Resurser och länkar</a></li>                           
                 </ul>
             </div>
         </div>

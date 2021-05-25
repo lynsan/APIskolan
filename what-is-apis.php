@@ -17,12 +17,13 @@
             <div class="text">
                 <p>Säg att du ska åka och hälsa på en vän. För att ta reda på när bussen går och hur lång tid din resa kommer att ta så kanske du använder dig av en reseapp på telefonen. Där skriver du in vilka stationer du ska åka från och till, och när du vill vara framme. Det som händer då är att reseappen frågar trafikföretagets API “Hej, kan jag få en busstidtabell för just dessa hållplatser?”. API:et plockar då fram den informationen från trafikföretagets servrar och skickar tillbaka tidtabellen till din reseapp som då kan visa när bussen går från din hållplats och hur lång tid resan kommer att ta.</p>
                 <br>
-                <h3>Det finns olika typer av APIer</h3>
+                <h2>Det finns olika typer av APIer</h2>
                 <br>
-                <p><b>Öppna API:er</b></p>
+                <h3>Öppna API:er</h3>
                 <p>Ett API kan antingen vara öppet eller stängt. Man kan säga att ett öppet API tillåter andra att kunna utnyttja delar av sin data. Det kan vara en myndighet som låter andra personer att kunna använda utvalda delar av sin data. Till exempel, Trafikverkets API som idag används av bland annat Hitta.se för att användarna ska kunna ta del av trafikinformation.</p>
                 <br>
-                <p><b>Stängda API:er</b></p>
+                <br>
+                <h3>Stängda API:er</h3>
                 <p>Till skillnad med öppet API, så innebär ett stängt API att man istället har ordnande strukturer som används för att hantera data som görs inuti själva koncernen. Ett exempel kan vara ett bokningssystem på ett hotell.</p>
                 <br>
                 <p>I nästa kapitel besrkiver vi mer om varför man vill använda API:er.</p>

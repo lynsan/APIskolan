@@ -26,6 +26,7 @@
 
             <div class="nav-buttons">
                 <button type="button" onclick="location.href='code-examples.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
+                <button type="button" onclick="location.href='resources.php';">Nästa<i class="fas fa-chevron-right nextChapter-icon"></i></button>
             </div>
         </section>
     </div>

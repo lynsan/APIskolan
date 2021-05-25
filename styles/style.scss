@@ -48,14 +48,14 @@ html {
             color: $primaryColor;
             font-size: $h2;
             line-height: 2;
-            margin-top: 50px;
+            margin-top: 30px;
         }
         h3{
             color: $primaryColor;
             font-size: $h3;
             font-weight:500;
             line-height: 1;
-            margin-top: 30px;
+            margin-bottom: 5px;
         }
         p{
             font-size: $p;
@@ -126,6 +126,7 @@ html {
             line-height: 1.5em;
             letter-spacing: 0.05em;
             overflow-x: auto;
+            
             pre{
                 padding: 0;
                 margin: 0 1em;
@@ -270,11 +271,15 @@ input[type="checkbox"]:checked + p a:hover{
     text-decoration: none;
 }
 
+iframe{
+    margin-bottom: 4em;
+    align-items: center;
+}
 
 
 @media screen and (min-width: $largeScreen) {
     .main-content{
-        width: calc(80vw - 10px);
+        width: calc(76vw - 10px);
         float: right;
         section form{
             display: flex;

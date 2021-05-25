@@ -1,4 +1,5 @@
 <?php $page = 'postman-guide';require('components/header.inc.php')?>
+<script type="text/javascript" src="styles/checkmarks.js"></script>
 
     <div class="main-content" onclick="hideMenu()">
         <section>
@@ -7,10 +8,10 @@
                 <h1>API i Postman</h1>
                 <p>Nu ska vi lära oss om hur man faktiskt använder ett API! Postman är en mjukvara som du kan använda för att testa API:er, vilket är ett bra verktyg att använda när du lär dig om API:er. I den här guiden visar vi hur man kan anropa en webbplats, och även hur man kan anropa ett riktigt API. När du ser denna ikon 💡 så indikerar det information. Du kan bocka av det steget som du gjort för att lättare se var du befinner dig i guiden.</p>
                 <br>
+                <br>
                 <!-- Guide för att installera och öppna Postman -->
                 <h3>Installera Postman</h3>
-                <br>
-                <input type="checkbox"><p>1. Besök <a href="https://www.postman.com/downloads/" target="_blank">https://www.postman.com/downloads/</a></p>
+                <input type="checkbox"><p>1. Besök <a href="https://www.postman.com/downloads/" target="_blank" rel="noopener noreferrer">https://www.postman.com/downloads/</a></p>
                 <br>
                 <br>
                 <input type="checkbox" onclick="toggleNextImg(this)"><p>2. Under “Download Postman” kan du klicka på “Download the App”. Postman känner av vilket operativsystem som du har, vilket du kan se på ikonen på nedladdningsknappen. Om ikonen inte stämmer överens med ditt operativsystem finns det länkar längre ner där det står “Not your OS?”. Där kan du välja att klicka den som matchar ditt operativsystem.</p>
@@ -27,8 +28,8 @@
             <img class="postman-guide-img horizontal"  src="images/03-postman-yourein.jpg" alt="Postman Overview">
             <div class="text">
                 <!-- Guide för att testa en URL i Postman -->
-                <h3>Testa en URL i Postman</h3>
                 <br>
+                <h3>Testa en URL i Postman</h3>
                 <p>Innan vi testar ett riktigt API, ska vi börja med att anropa en webbplats. Vi börjar med att hämta URL:en från svts webbplats.</p>
                 <p class="callout">💡 En <a href="terminology.php">URL</a> är adressen till en webbplats, som är i detta fall <b>https://www.svt.se/</b>.</p>
                 <br>
@@ -46,13 +47,14 @@
             </div>
             <img class="postman-guide-img horizontal step3url-img" src="images/06-svt-url-result.jpg" alt="Svt URL Result">
             <div class="text">
-                <input type="checkbox" onclick="toggleStep3url(this)"><p>3. Besök <a href="https://www.svt.se/" target="_blank" >https://www.svt.se/</a>. Därefter högerklicka i webbläsaren och välj “View page source”, “Visa sidans källa” eller något i den stilen.</p>
+                <input type="checkbox" onclick="toggleStep3url(this)"><p>3. Besök <a href="https://www.svt.se/" target="_blank" rel="noopener noreferrer">https://www.svt.se/</a>. Därefter högerklicka i webbläsaren och välj “View page source”, “Visa sidans källa” eller något i den stilen.</p>
                 <br>
                 <br>
                 <p class="step3url-p">Du kan se att din webbläsare visar samma svar som du fick i Postman. Webbläsare får alltså samma svar, som den i sin tur tolkar, och visar ute på internet. Det är samma sak med många API:er, många av de finns ute på internet, du behöver dock veta deras URL för att kunna kommunicera med dem.</p>
                 <!-- Guide för att testa ett riktigt API i Postman -->
-                <h3>Testa ett riktigt API i Postman</h3>
                 <br>
+                <br>
+                <h3>Testa ett riktigt API i Postman</h3>
                 <p class="step1api-p">Nu ska vi testa att anropa ett riktigt API! Vi använder oss av Postman för att kommunicera med 46elks API. Med hjälp av 46elks API ska du nu skicka ett SMS till dig själv. Du har kanske fått en påminnelse om tandläkartid förut? Det är genom att använda ett API som man kan automatisera ett sånt SMS.</p>
                 <br>
                 <p class="step1api-p">För att kunna använda 46elks API behöver vi en URL(adress).</p>
@@ -73,7 +75,7 @@
                 <br>
                 <p class="callout">💡 För att kunna autentisera dig behöver du skapa ett konto hos 46elks. När du skapar ett konto får du ett API användarnamn och lösenord som du kan använda för att autentisera dig, dessa kallas också ibland för “<a href="terminology.php">API-keys</a>”.</p>
                 <br>
-                <input type="checkbox" onclick="toggleStep3api(this)"><p>3. Skapa ett konto hos <a href="https://46elks.se/register" target="_blank">46elks</a> för att få ett användarnamn och lösenord till API:et. Du behöver ha din telefon nära till hands då du kommer att få ett telefonsamtal för att bekräfta att du är en människa och inte robot.</p>
+                <input type="checkbox" onclick="toggleStep3api(this)"><p>3. Skapa ett konto hos <a href="https://46elks.se/register" target="_blank" rel="noopener noreferrer">46elks</a> för att få ett användarnamn och lösenord till API:et. Du behöver ha din telefon nära till hands då du kommer att få ett telefonsamtal för att bekräfta att du är en människa och inte robot.</p>
                 <br>
                 <br>
                 <p class="step4api-p">Nu när du har skapat ditt konto och loggat in hos 46elks så kan du i deras webbplats hitta ditt API användarnamn (username) och lösenord (password) under “API Credentials”.</p>
@@ -94,8 +96,9 @@
             <div class="text">
                 <input type="checkbox" onclick="toggleStep6api(this)"><p>6. I Postman, testa att lägga till <b class="step6api-url">me</b> i slutet av URL:en. Så här kommer URL:en att se ut efter du har gjort det: <b class="step6api-url">https://api.46elks.com/a1/me</b> Klicka sedan på “Send”. Vad får du för svar?</p>
                 <br>
-                <h3>Testa att skicka SMS</h3>
                 <br>
+                <br>
+                <h3>Testa att skicka SMS</h3>
                 <p>Nu ska du få testa att skicka SMS till dig själv med hjälp av 46elks API.</p>
                 <br>
                 <input type="checkbox" onclick="toggleNextImg(this)"><p>1. Ändra anropet från GET till POST i Postman.</p>
