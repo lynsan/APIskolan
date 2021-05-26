@@ -4,6 +4,7 @@
         <section>
             <div class="text">
                 <h1>Terminologi som är bra att ha koll på</h1>
+                <p>Du har kanske i de tidigare kapitlena stött på ord och begrepp som du aldrig hört talas om förut eller vet inte vad det innebär. Här har vi samlat in terminologi som är bra att ha koll på när man lär sig om och använder API:er.</p>
                 <br>
                 <h3>HTTP</h3> 
                 <p>Hypertext Transfer Protocol eller HTTP är ett protokoll som används för att din webbläsare ska kunna hämta innehåll från en annan dator över internet. Med hjälp av HTTP kan alltså din webbläsare kommunicera med en server och läsa in innehållet på en webbplats.</p>
@@ -59,6 +60,10 @@
                 <p>Här är ett exempel på hur xml-kod kan se ut:</p>
                 <br>
                 <code>&lt;key&gt;value&lt;/key&gt;, &lt;message&gt;Hello World!&lt;/message&gt;</code>
+            </div>
+            <div class="nav-buttons">
+                <button type="button" onclick="location.href='why-use-apis.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
+                <button type="button" onclick="location.href='code-examples.php';">Nästa<i class="fas fa-chevron-right nextChapter-icon"></i></button>
             </div>
         </section>
     </div>

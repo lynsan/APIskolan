@@ -25,12 +25,10 @@
                 <ul class="navlist">
                     <li class="navlist-item"><a class="<?php if($page=='open-data'){echo 'active';} ?>" href="open-data.php">1. Öppna data</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='what-is-apis'){echo 'active';} ?>" href="what-is-apis.php">2. Vad är ett API?</a></li>
-                    <li class="navlist-item"><a class="<?php if($page=='why-use-apis'){echo 'active';} ?>" href="why-use-apis.php">3. Varför vill man använda ett API?</a></li>
-                    
+                    <li class="navlist-item"><a class="<?php if($page=='why-use-apis'){echo 'active';} ?>" href="why-use-apis.php">3. Varför vill man använda ett API?</a></li>                
                     <li class="navlist-item"><a class="<?php if($page=='postman-guide'){echo 'active';} ?>" href="postman-guide.php">4. API i Postman</a></li>
-                    <li class="navlist-item"><a class="<?php if($page=='code-examples'){echo 'active';} ?>" href="code-examples.php">5. Kodexempel</a></li>
-
-                    <li class="navlist-item"><a class="<?php if($page=='terminology'){echo 'active';} ?>" href="terminology.php">6. Terminologi</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='terminology'){echo 'active';} ?>" href="terminology.php">5. Terminologi</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='code-examples'){echo 'active';} ?>" href="code-examples.php">6. Kodexempel</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='test-your-knowledge'){echo 'active';} ?>" href="test-your-knowledge.php">7. Testa dina kunskaper</a></li>                           
                     <li class="navlist-item"><a class="<?php if($page=='resources'){echo 'active';} ?>" href="resources.php">8. Resurser och länkar</a></li>                           
                 </ul>

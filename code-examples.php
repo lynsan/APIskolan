@@ -77,7 +77,7 @@
             <p>Nu har du lärt dig massor om API:er! Du kan testa dina kunskaper i nästa kapitel.</p>
         </div>
         <div class="nav-buttons">
-            <button type="button" onclick="location.href='postman-guide.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
+            <button type="button" onclick="location.href='terminology.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
             <button type="button" onclick="location.href='test-your-knowledge.php';">Nästa<i class="fas fa-chevron-right nextChapter-icon"></i></button>
         </div>
     </section>

@@ -17,6 +17,11 @@
             <div class="text">
                 <p>Säg att du ska åka och hälsa på en vän. För att ta reda på när bussen går och hur lång tid din resa kommer att ta så kanske du använder dig av en reseapp på telefonen. Där skriver du in vilka stationer du ska åka från och till, och när du vill vara framme. Det som händer då är att reseappen frågar trafikföretagets API “Hej, kan jag få en busstidtabell för just dessa hållplatser?”. API:et plockar då fram den informationen från trafikföretagets servrar och skickar tillbaka tidtabellen till din reseapp som då kan visa när bussen går från din hållplats och hur lång tid resan kommer att ta.</p>
                 <br>
+                <br>
+                <h3>Videoförklaring om API</h3>
+                <p>Lantmäteriet Sverige har lagt upp en video på sin youtube-kanal där de förklarar vad ett API är för något, visualiserar hur det fungerar och hur det används i vardagen. <a href="https://www.youtube.com/watch?v=-m7yXolfptY">Syntolkad version av videon</a></p>
+                <br>
+                <iframe class="LantVideo" width="560" height="315" src="https://www.youtube.com/embed/OeXnuug_t3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 <h2>Det finns olika typer av APIer</h2>
                 <br>
                 <h3>Öppna API:er</h3>
