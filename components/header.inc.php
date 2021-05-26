@@ -25,8 +25,20 @@
                 <ul class="navlist">
                     <li class="navlist-item"><a class="<?php if($page=='open-data'){echo 'active';} ?>" href="open-data.php">1. Öppna data</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='what-is-apis'){echo 'active';} ?>" href="what-is-apis.php">2. Vad är ett API?</a></li>
-                    <li class="navlist-item"><a class="<?php if($page=='why-use-apis'){echo 'active';} ?>" href="why-use-apis.php">3. Varför vill man använda ett API?</a></li>                
-                    <li class="navlist-item"><a class="<?php if($page=='postman-guide'){echo 'active';} ?>" href="postman-guide.php">4. API i Postman</a></li>
+                    <li class="navlist-item"><a class="<?php if($page=='why-use-apis'){echo 'active';} ?> " href="why-use-apis.php">3. Varför vill man använda ett API?</a></li>                
+                    
+                    <li class="navlist-item " onclick="toggleSubmenu(this)"><a class="drop-down-menu" href="#">4. API i Postman<i class="fas fa-angle-down drop-down-icon 
+                    <?php 
+                        if($page !='postman-testURL' && $page != 'postman-testAPI') echo 'rotate'?>"></i></a>
+                        
+                        <ul class="submenu 
+                        <?php 
+                        if($page !='postman-testURL' && $page != 'postman-testAPI') echo 'd-none'?>">
+                            <li><a class="<?php if($page=='postman-testURL'){echo 'active';} ?>" href="postman-testURL.php">Testa URL i Postman</a></li>
+                            <li><a class="<?php if($page=='postman-testAPI'){echo 'active';} ?>" href="postman-testAPI.php">Testa Riktigt API i Postman</a></li>
+                        </ul>
+                    </li>
+
                     <li class="navlist-item"><a class="<?php if($page=='terminology'){echo 'active';} ?>" href="terminology.php">5. Terminologi</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='code-examples'){echo 'active';} ?>" href="code-examples.php">6. Kodexempel</a></li>
                     <li class="navlist-item"><a class="<?php if($page=='test-your-knowledge'){echo 'active';} ?>" href="test-your-knowledge.php">7. Testa dina kunskaper</a></li>                           

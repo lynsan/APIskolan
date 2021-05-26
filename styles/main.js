@@ -4,7 +4,7 @@ function toggleSubmenu(ev){
 }
 
 function toggleDisplayNone(element){
-    let arrow = document.querySelector('.drop-down');
+    let arrow = document.querySelector('.drop-down-icon');
     if(element.classList.contains('d-none')) {
         element.classList.remove('d-none');
         arrow.classList.remove('rotate');

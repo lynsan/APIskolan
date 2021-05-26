@@ -62,7 +62,7 @@
                 <code>&lt;key&gt;value&lt;/key&gt;, &lt;message&gt;Hello World!&lt;/message&gt;</code>
             </div>
             <div class="nav-buttons">
-                <button type="button" onclick="location.href='why-use-apis.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
+                <button type="button" onclick="location.href='postman-testAPI.php';"><i class="fas fa-chevron-left previousChapter-icon"></i>Föregående</button>
                 <button type="button" onclick="location.href='code-examples.php';">Nästa<i class="fas fa-chevron-right nextChapter-icon"></i></button>
             </div>
         </section>
