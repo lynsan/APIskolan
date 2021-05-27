@@ -31,30 +31,45 @@
                 <h2>Youtubetutorials på när ett API hämtas och används</h2>
                 <br>
 
+                <h3>PHP (Svenska)</h3>
+                <p class="subtitles">Textad</p>
+                <p>Vi på APIskolan har gjort en video på hur man anropar ett API i PHP. I videon använder vi oss av två API:er från <a href="https://some-random-api.ml/">Some Random API</a>.</p>
+                <br>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-6_4ugUZozQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
                 <h3>Python (Svenska)</h3>
                 <p class="subtitles">Ej textad</p>
                 <p>Unga Programmerare har lagt upp en video på hur man anropar ett API i Python. I videon går han igenom lite kort vad ett API är och visar lite olika resurser för hur man hittar API:er. Sedan går Unga Programmerare igenom hur man gör ett anrop till API:et <a href="https://uselessfacts.jsph.pl/">Random Useless Facts</a>.</p>
                 <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vFlmiY6v3yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vFlmiY6v3yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
                 <h3>46elks API i Python (Svenska)</h3>
                 <p class="subtitles">Ej textad</p>
                 <p>Unga Programmerare har lagt upp en video på sin youtube-kanal om hur man skickar ett sms med 46elks API i programmeringsspråket Python. Han visar även hur ett felmeddelande kan se ut om smset inte lyckas skickas.</p>
                 <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/y44g9CKss10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/y44g9CKss10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
                 <h3>JavaScript (Engelska)</h3>
                 <p class="subtitles">Autogenererad textning översatt till olika språk</p>
                 <p>iEatWebsites har lagt upp en video där han använder <a href="https://pokeapi.co/">PokéAPI</a> i JavaScript. Han visar hur man kan få ut informationen om en specifik pokemon och visa det på en webbsida.</p>
                 <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tFVdxGgJPCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tFVdxGgJPCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
                 <h3>JavaScript jQuery (Engelska)</h3>
                 <p class="subtitles">Autogenererad textning översatt till olika språk</p>
                 <p>freeCodeCamp.org har lagt upp en video på deras youtube-kanal där dom visar hur man kan anropa ett API med JavaScript-biblioteket jQuery. Dom använder <a href="https://openweathermap.org/api">OpenWeather API</a> och visar hur man kan plocka ut specifika data från det JSON-svar man får när man anropar API:et.</p>
                 <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BYsTrGH6B2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BYsTrGH6B2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
             
             <div class="nav-buttons">

@@ -32,11 +32,14 @@ function changeMenuWidth(newWidth){
         {
             menu.style.width = "0";
             menu.style.border = "none";
+            document.querySelector(".hamburger-icon").style.visibility = "visible";
             document.querySelector(".close-icon").style.visibility = "hidden";
+
         }
         else{
             menu.style.width = newWidth;
             menu.style.borderRight = "7px solid #BC5757";
+            document.querySelector(".hamburger-icon").style.visibility = "hidden";
             document.querySelector(".close-icon").style.visibility = "visible";
         }
 }

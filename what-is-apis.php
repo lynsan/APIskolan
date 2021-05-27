@@ -21,7 +21,9 @@
                 <h3>Videoförklaring om API</h3>
                 <p>Lantmäteriet Sverige har lagt upp en video på sin youtube-kanal där de förklarar vad ett API är för något, visualiserar hur det fungerar och hur det används i vardagen. <a href="https://www.youtube.com/watch?v=-m7yXolfptY">Syntolkad version av videon</a></p>
                 <br>
-                <iframe class="LantVideo" width="560" height="315" src="https://www.youtube.com/embed/OeXnuug_t3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                <div class="video-container">
+                    <iframe class="LantVideo" width="560" height="315" src="https://www.youtube.com/embed/OeXnuug_t3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                </div>
                 <h2>Det finns olika typer av APIer</h2>
                 <br>
                 <h3>Öppna API:er</h3>
