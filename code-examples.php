@@ -1,6 +1,5 @@
 <?php $page = 'code-examples';require('components/header.inc.php')?>
-
-<script type="text/javascript" src="styles/codeexamples.js"></script>
+<script type="text/javascript" src="javascript/codeexamples.js"></script>
 
 <div class="main-content" onclick="hideMenu()">
     <section>

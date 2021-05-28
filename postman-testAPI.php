@@ -1,5 +1,5 @@
 <?php $page = 'postman-testAPI';require('components/header.inc.php')?>
-<script type="text/javascript" src="styles/checkmarks.js"></script>
+<script type="text/javascript" src="javascript/checkmarks.js"></script>
 
     <div class="main-content" onclick="hideMenu()">
         <section>
