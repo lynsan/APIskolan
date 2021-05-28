@@ -130,7 +130,7 @@ header .logo-container .logga {
 }
 
 @media screen and (min-width: 1200px) {
-  .hamburger-icon {
+  .hamburger-icon, .close-icon {
     display: none;
   }
   .menu-container {

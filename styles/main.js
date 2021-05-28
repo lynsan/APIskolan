@@ -51,6 +51,7 @@ function hideMenu(){
 
         menu.style.width = "0";
         menu.style.border = "none";
+        document.querySelector(".hamburger-icon").style.visibility = "visible";
         document.querySelector(".close-icon").style.visibility = "hidden";
     }
 }
@@ -61,11 +62,13 @@ window.onresize = function(){
     if(window.innerWidth >= 1200){
         menu.style.width = '24vw';
         menu.style.borderRight = "7px solid #BC5757";
+        document.querySelector(".hamburger-icon").style.visibility = "hidden";
         document.querySelector(".close-icon").style.visibility = "hidden";
     }
     else{
         menu.style.width = '0';
         menu.style.border = "none";
+        document.querySelector(".hamburger-icon").style.visibility = "visible";
         document.querySelector(".close-icon").style.visibility = "hidden";
     }
 }
