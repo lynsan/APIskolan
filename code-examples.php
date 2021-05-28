@@ -8,7 +8,7 @@
             <h1>Kodexempel</h1>
             <p>Här kan du se hur själva koden kan se ut när du gör ett API anrop! Testa skriva in ett eget meddelande med avsändare och mottagare. Se var det ändras i koden nedanför i de olika programmeringsspråken. Du kan även ändra mottagare, avsändare och meddelande direkt i koden.</p>
             <br>
-            <p>Testa att skicka ett sms till dig själv! Du kan kopiera koden, klistra den in i ditt eget projekt, och köra koden.</p>
+            <p>Testa att skicka ett sms till dig själv! Du kan kopiera koden, klistra den in i ditt eget projekt, och köra koden. För att göra API anropet måste du skapa ett konto hos <a href="https://46elks.se/">46elks</a>. Byt sedan ut fältet för username och password till dina egna API credentials som du får av 46elks när du skapar ett konto.</p>
             <br>
             <br>
             <p><i><b>Tips!</b> Om du skickar ett sms till telefonnumret +46766868334 med avsändaren "Tshirt" så kan du få en T-shirt hemskickad med 46elks logga på! Skriv i meddelandet vilken storlek du vill ha, och om du vill ha en rak eller kurvig T-shirt.</i></p>
